@@ -318,7 +318,7 @@
 class vn_artillery_settings
 {
         // Add your NUMBER variable that will be used as a cost variable - leave empty if you don't want the cost to matter.
-        cost_variable = "CVO_fireSupportBudget";
+        cost_variable = "cvo_budget";
         // Array - { Always available, `radio_backpacks`, `radio_vehicles`, `player_types`, "vn_artillery" unit trait}
         // Make the first true for the radio to be always avaliable
         availability[] = {0, 1, 1, 0, 0};
@@ -958,7 +958,7 @@ class vn_artillery_settings
                                 cooldown = (60*5);
                                 cost = 0;
                         };
-                       /* class seawolves_1
+                        class seawolves_1
                         {
                                 displayname = $STR_VN_ARTILLERY_SEAWOLVES_NAME;
                                 //icon = "vn\ui_f_vietnam\data\decals\";
@@ -968,6 +968,7 @@ class vn_artillery_settings
                                 cooldown = (60*5);
                                 cost = 0;
                         };
+                        /*
                         class albatross_1
                         {
                                 displayname = $STR_VN_ARTILLERY_ALBATROSS_NAME;
