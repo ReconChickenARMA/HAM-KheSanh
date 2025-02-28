@@ -69,10 +69,13 @@ if (
 
 
 // SOGPF Custom Radio Operator Budget Value
+
+missionNamespace setVariable ["cvo_budget", -100, true];
+
 private _delay = if (is3DENPreview) then { 1 } else { 60 };
 
 [{
-    private _budget = missionNamespace getVariable ["CVO_fireSupportBudget", 0];
+    private _budget = missionNamespace getVariable ["cvo_budget", 0];
     _budget = (_budget + 2.5) min 100;
-    missionNamespace setVariable ["CVO_fireSupportBudget", _budget, true];
+    missionNamespace setVariable ["cvo_budget", _budget, true];
 }, _delay] call CBA_fnc_addPerFrameHandler;
