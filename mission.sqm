@@ -20,7 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=955;
+		nextID=983;
 	};
 	class Camera
 	{
@@ -435,22 +435,10 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="ARRAY";
-				};
-			};
-		};
-		class Attribute1
 		{
 			property="RespawnButton";
 			expression="true";
@@ -463,9 +451,21 @@ class CustomAttributes
 				};
 			};
 		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
+				};
+			};
+		};
 		nAttributes=2;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -1633,7 +1633,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={10752.886,100.42087,3096.2739};
-								angles[]={0,0.22406416,-0};
+								angles[]={0,0.22406416,0};
 							};
 							side="Empty";
 							flags=4;
@@ -1741,7 +1741,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={10741.7,100.58231,3113.8027};
-								angles[]={0,1.4053655,-0};
+								angles[]={0,1.4053655,0};
 							};
 							side="Empty";
 							flags=4;
@@ -1945,7 +1945,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={10742.111,100.54746,3108.9675};
-								angles[]={0,1.5328321,-0};
+								angles[]={0,1.5328321,0};
 							};
 							side="Empty";
 							flags=4;
@@ -3797,7 +3797,7 @@ class Mission
 							};
 							id=698;
 							type="vn_b_wheeled_m54_03";
-							atlOffset=0.008392334;
+							atlOffset=0.0083847046;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -21443,14 +21443,14 @@ class Mission
 									{
 										class Attribute0
 										{
-											property="ENH_doStop";
-											expression="if (!is3DEN && _value) then {doStop _this}";
+											property="face";
+											expression="_this setface _value;";
 											class Value
 											{
 												class data
 												{
-													singleType="BOOL";
-													value=1;
+													singleType="STRING";
+													value="vn_vietnamese_02_01_face";
 												};
 											};
 										};
@@ -21554,14 +21554,14 @@ class Mission
 										};
 										class Attribute5
 										{
-											property="face";
-											expression="_this setface _value;";
+											property="ENH_doStop";
+											expression="if (!is3DEN && _value) then {doStop _this}";
 											class Value
 											{
 												class data
 												{
-													singleType="STRING";
-													value="vn_vietnamese_02_01_face";
+													singleType="BOOL";
+													value=1;
 												};
 											};
 										};
@@ -31481,7 +31481,7 @@ class Mission
 						};
 					};
 					id=745;
-					atlOffset=0.078834534;
+					atlOffset=0.16995239;
 				};
 				class Item7
 				{
@@ -34324,7 +34324,7 @@ class Mission
 				};
 			};
 			id=631;
-			atlOffset=2.3807449;
+			atlOffset=2.3837051;
 		};
 		class Item16
 		{
@@ -55534,7 +55534,7 @@ class Mission
 				};
 			};
 			id=2572;
-			atlOffset=134.7524;
+			atlOffset=3.7106018;
 		};
 		class Item36
 		{
