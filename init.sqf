@@ -6,8 +6,14 @@
 
 [compileScript ["cvo\cvo_init.sqf"]] call CBA_fnc_directCall;
 
-// Init Interative Voices via Script
-[] call vn_fnc_initsituationalawareness;
 
-// Init Gestures via Script
-[objNull, [], true] call VN_fnc_module_UI_gestureMenu_init;
+// Init Interative Voices via Script
+if (isServer) then {
+    [] call vn_fnc_initsituationalawareness;
+};
+
+// VN Specials
+if (hasInterface) then {
+    // Init Gesture Menu with a default range of 60m
+    [objNull, [], true] call vn_fnc_module_UI_gestureMenu_init;
+};

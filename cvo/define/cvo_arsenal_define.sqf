@@ -280,15 +280,6 @@ cvo_arsenal_base append [
 
 // Vests
 cvo_arsenal_base append [
-	//army vests
-	"vn_b_vest_usarmy_10",
-	"vn_b_vest_usarmy_05",
-	"vn_b_vest_usarmy_08",
-	"vn_b_vest_usarmy_06",
-	"vn_b_vest_usarmy_04",
-	"vn_b_vest_usarmy_01",
-	"vn_b_vest_usarmy_03",
-	"vn_b_vest_usarmy_02",
 	//sog vests
 	"vn_b_vest_sog_04",
 	"vn_b_vest_sog_05",
@@ -411,6 +402,10 @@ cvo_arsenal_base append [
 
 // Rifles
 cvo_arsenal_base append  [
+	//m197 shotgun 
+	"vn_m1897",
+	"vn_m1897_buck_mag",
+	"vn_m1897_fl_mag",
 	//vz54
 	"vn_vz54",
 	"vn_o_3x_vz54",
@@ -419,16 +414,6 @@ cvo_arsenal_base append  [
 	"vn_vz61",
 	"vn_vz61_mag",
 	"vn_vz61_t_mag",
-	//type64
-	"vn_type64_smg",
-	"vn_type64_f_smg",
-	"vn_type64_smg_mag",
-	"vn_type64_smg_t_mag",
-	//svd
-	"vn_svd",
-	"vn_svd_mag",
-	"vn_svd_t_mag",
-	"vn_o_4x_svd",
 	//stenmk2
 	"vn_sten",
 	"vn_sten_mag",
@@ -468,13 +453,8 @@ cvo_arsenal_base append  [
 	"vn_mc10_mag",
 	"vn_mc10_t_mag",
 	"vn_s_mc10",
-	//mat-49vc
-	"vn_mat49_vc",
-	"vn_mat49_vc_mag",
-	"vn_mat49_vc_t_mag",
 	//mat-49
 	"vn_mat49",
-	"vn_mat49_f",
 	"vn_mat49_mag",
 	"vn_mat49_t_mag",
 	"vn_s_mat49",
@@ -619,13 +599,6 @@ cvo_arsenal_base append  [
 	"vn_22mm_m1a2_frag_mag",
 	"vn_22mm_m22_smoke_mag",
 	"vn_22mm_m9_heat_mag",
-	//k98k
-	"vn_k98k",
-	"vn_k98k_mag",
-	"vn_k98k_t_mag",
-	"vn_b_camo_k98k",
-	"vn_b_k98k",
-	"vn_o_1_5x_k98k",
 	//K-50m/PPs/PPsh
 	"vn_k50m",
 	"vn_pps43",
@@ -639,21 +612,13 @@ cvo_arsenal_base append  [
 	"vn_ppsh41_71_t_mag",
 	//Ish-54
 	"vn_izh54",
-	"vn_izh54_shorty",
 	"vn_izh54_mag",
-	"vn_izh54_so_mag",
 	//M16/XM16/XM17
-	"vn_gau5a",
-	"vn_m16_usaf",
 	"vn_m16",
 	"vn_m16_camo",
 	"vn_m16_m203_camo",
 	"vn_m16_m203",
 	"vn_m16_xm148",
-	"vn_xm16e1",
-	"vn_xm16e1_xm148",
-	"vn_xm177e1",
-	"vn_xm177e1_camo",
 	"vn_xm177",
 	"vn_xm177_camo",
 	"vn_xm177_fg",
@@ -678,9 +643,7 @@ cvo_arsenal_base append  [
 	"vn_m16_30_t_mag",
 	//f1/l2a3/l3a1
 	"vn_l2a3",
-	"vn_l2a3_f",
 	"vn_l34a1",
-	"vn_l34a1_f",
 	"vn_l34a1_xm148",
 	"vn_f1_smg",
 	"vn_f1_smg_mag",
@@ -717,20 +680,19 @@ cvo_arsenal_base append  [
 	"vnx_m77e_buck_mag",
 	"vnx_m77e_so_mag",
 	//m50
-	"vnx_m50_smg",
-	"vnx_m50_smg_fold",
+	"vnx_m50_smg",	
 	"vnx_m50_smg_mag",
 	"vnx_m50_smg_t_mag",
 	//m12
 	"vnx_m12_smg",
-	"vnx_m12_smg_fold",
+	
 	"vnx_m12_smg_20_mag",
 	"vnx_m12_smg_20_t_mag",
 	"vnx_m12_smg_32_mag",
 	"vnx_m12_smg_32_t_mag",
 	//m/45
 	"vnx_m45_sf",
-	"vn_m45_fold",
+	
 	"vn_m45",
 	"vn_m45_camo",
 	"vn_s_m45_camo",
@@ -767,6 +729,22 @@ cvo_arsenal_base append  [
 
 // Pistols
 cvo_arsenal_base append [
+	"vn_izh54_p",
+	"vn_izh54_so_mag",
+	"vn_izh54_mag",
+	"vn_m1895",
+	"vn_m1895_mag",
+	"vn_m1911",
+	"vn_mx991_m1911",
+	"vn_m1911_mag",
+	"vn_m79_p",
+	"vn_mk22",
+	"vn_mk22_mag",
+	"vn_m10",
+	"vn_m10_mag",
+	//browning hi-power 
+	"vn_hp",
+	"vn_hp_mag",
 	//welrod
 	"vn_welrod",
 	"vn_welrod_mag",
@@ -873,8 +851,8 @@ cvo_arsenal_base append [
 	"vn_m128_mag",
 	"vn_m129_mag",
 	//lock poppers
-	"tsp_breach_popper_mag",
-	"tsp_breach_popper_auto_mag",
+	//"tsp_breach_popper_mag",
+	//"tsp_breach_popper_auto_mag",
 	//m72
 	"vn_m72",
 	"vn_m72_mag"	
