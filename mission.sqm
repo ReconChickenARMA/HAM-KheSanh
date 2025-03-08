@@ -20,18 +20,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=899;
+		nextID=927;
 	};
 	class Camera
 	{
-		pos[]={10833.122,167.51942,3124.9063};
-		dir[]={0.23095681,-0.82430905,0.51714128};
-		up[]={0.33613244,0.56614006,0.75264585};
-		aside[]={0.91318268,1.7206185e-07,-0.40783432};
+		pos[]={10811.276,104.97269,3140.2117};
+		dir[]={0.37113044,-0.70294172,-0.606749};
+		up[]={0.36679393,0.7112444,-0.59965944};
+		aside[]={-0.85307354,-5.6927092e-08,-0.52179974};
 	};
 };
 binarizationWanted=0;
-sourceName="=BTC=co@30_Hearts_and_Minds";
+sourceName="HAM-KheSanh";
 addons[]=
 {
 	"A3_Modules_F_Curator_Curator",
@@ -349,8 +349,8 @@ class AddonsMetaData
 		{
 			className="cigs_savage";
 			name="Immersion Cigs - Rewrite - Savage - Compatibility for SOG:PF";
-			author="Immersion Cigs Team";
-			url="https://github.com/OverlordZorn/immersion-cigs-rewrite";
+			author="CVO TEAM";
+			url="https://github.com/OverlordZorn/cvo-media";
 		};
 		class Item38
 		{
@@ -439,18 +439,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="ARRAY";
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -459,6 +447,18 @@ class CustomAttributes
 				{
 					singleType="SCALAR";
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
 				};
 			};
 		};
@@ -12215,7 +12215,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10809.371,98.664383,3135.0049};
+								position[]={10809.371,98.562286,3135.0049};
 								angles[]={0,6.1106944,0};
 							};
 							side="West";
@@ -12298,7 +12298,7 @@ class Mission
 							};
 							id=496;
 							type="vn_b_men_sog_31";
-							atlOffset=0.15341949;
+							atlOffset=0.051322937;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -12629,7 +12629,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10815.151,98.656456,3136.4607};
+								position[]={10815.151,98.600311,3136.4607};
 								angles[]={0,3.5091417,0};
 							};
 							side="West";
@@ -12714,7 +12714,7 @@ class Mission
 							};
 							id=499;
 							type="vn_b_men_sog_31";
-							atlOffset=0.12995911;
+							atlOffset=0.073814392;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -12764,7 +12764,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10807.391,98.659576,3135.1218};
+								position[]={10807.39,98.659737,3135.1221};
 								angles[]={0,0.13859659,0};
 							};
 							side="West";
@@ -12846,26 +12846,26 @@ class Mission
 							};
 							id=500;
 							type="vn_b_men_sog_19";
-							atlOffset=0.14785004;
+							atlOffset=0.14800262;
 							class CustomAttributes
 							{
 								class Attribute0
 								{
-									property="speaker";
-									expression="_this setspeaker _value;";
+									property="acre_sys_radio_edenSetup";
+									expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
 									class Value
 									{
 										class data
 										{
 											singleType="STRING";
-											value="Male01FRE";
+											value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
 										};
 									};
 								};
 								class Attribute1
 								{
-									property="pitch";
-									expression="_this setpitch _value;";
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 									class Value
 									{
 										class data
@@ -12876,19 +12876,6 @@ class Mission
 									};
 								};
 								class Attribute2
-								{
-									property="ENH_unitTrait_explosiveSpecialist";
-									expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
-									class Value
-									{
-										class data
-										{
-											singleType="BOOL";
-											value=1;
-										};
-									};
-								};
-								class Attribute3
 								{
 									property="ace_isEOD";
 									expression="_this setVariable ['ACE_isEOD', _value, true]";
@@ -12901,7 +12888,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute4
+								class Attribute3
 								{
 									property="ENH_doStop";
 									expression="if (!is3DEN && _value) then {doStop _this}";
@@ -12914,7 +12901,46 @@ class Mission
 										};
 									};
 								};
-								nAttributes=5;
+								class Attribute4
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute5
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Male01FRE";
+										};
+									};
+								};
+								class Attribute6
+								{
+									property="ENH_unitTrait_explosiveSpecialist";
+									expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								nAttributes=7;
 							};
 						};
 						class Item7
@@ -13178,7 +13204,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10817.381,98.652344,3135.509};
+								position[]={10817.381,98.592812,3135.509};
 								angles[]={0,0.38107517,0};
 							};
 							side="West";
@@ -13239,7 +13265,7 @@ class Mission
 							};
 							id=1121;
 							type="vn_b_men_sog_20";
-							atlOffset=0.13600159;
+							atlOffset=0.076469421;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -14343,7 +14369,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10809.76,98.5298,3140.9893};
+								position[]={10809.76,98.530144,3140.989};
 								angles[]={0,5.6730704,0};
 							};
 							side="West";
@@ -14393,26 +14419,26 @@ class Mission
 							};
 							id=492;
 							type="vn_b_men_sog_07";
-							atlOffset=-0.019348145;
+							atlOffset=-0.019004822;
 							class CustomAttributes
 							{
 								class Attribute0
 								{
-									property="speaker";
-									expression="_this setspeaker _value;";
+									property="acre_sys_radio_edenSetup";
+									expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
 									class Value
 									{
 										class data
 										{
 											singleType="STRING";
-											value="Male01FRE";
+											value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
 										};
 									};
 								};
 								class Attribute1
 								{
-									property="pitch";
-									expression="_this setpitch _value;";
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 									class Value
 									{
 										class data
@@ -14423,19 +14449,6 @@ class Mission
 									};
 								};
 								class Attribute2
-								{
-									property="ENH_unitTrait_explosiveSpecialist";
-									expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
-									class Value
-									{
-										class data
-										{
-											singleType="BOOL";
-											value=1;
-										};
-									};
-								};
-								class Attribute3
 								{
 									property="ace_isEOD";
 									expression="_this setVariable ['ACE_isEOD', _value, true]";
@@ -14448,7 +14461,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute4
+								class Attribute3
 								{
 									property="ENH_doStop";
 									expression="if (!is3DEN && _value) then {doStop _this}";
@@ -14461,7 +14474,46 @@ class Mission
 										};
 									};
 								};
-								nAttributes=5;
+								class Attribute4
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute5
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Male01FRE";
+										};
+									};
+								};
+								class Attribute6
+								{
+									property="ENH_unitTrait_explosiveSpecialist";
+									expression="[_this, ['ExplosiveSpecialist', _value]] remoteExec ['setUnitTrait', _this]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								nAttributes=7;
 							};
 						};
 						class Item8
@@ -21377,14 +21429,14 @@ class Mission
 									{
 										class Attribute0
 										{
-											property="ENH_doStop";
-											expression="if (!is3DEN && _value) then {doStop _this}";
+											property="face";
+											expression="_this setface _value;";
 											class Value
 											{
 												class data
 												{
-													singleType="BOOL";
-													value=1;
+													singleType="STRING";
+													value="vn_vietnamese_02_01_face";
 												};
 											};
 										};
@@ -21488,14 +21540,14 @@ class Mission
 										};
 										class Attribute5
 										{
-											property="face";
-											expression="_this setface _value;";
+											property="ENH_doStop";
+											expression="if (!is3DEN && _value) then {doStop _this}";
 											class Value
 											{
 												class data
 												{
-													singleType="STRING";
-													value="vn_vietnamese_02_01_face";
+													singleType="BOOL";
+													value=1;
 												};
 											};
 										};
@@ -56517,7 +56569,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={10798.822,102.18029,3111.4897};
-				angles[]={0,1.0451946,-0};
+				angles[]={0,1.0451946,0};
 			};
 			side="Empty";
 			flags=5;

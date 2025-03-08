@@ -961,6 +961,8 @@ cvo_arsenal_roleKit = createHashMapFromArray [
 		"vn_mine_tm57_mag",
 		"vn_mine_satchel_remote_02_mag",
 		"vn_mine_satchelcharge_02_mag",
+		//ace defusal kit 
+		"ACE_DefusalKit",
 		//sog trap kit
 		"vn_b_item_trapkit",
 		//sog demo pack 
