@@ -175,7 +175,7 @@ cvo_arsenal_base append [
 	"ACE_Canteen",	
 
 	"tsp_paperclip",
-
+	"ACE_wirecutter",
 	"vn_b_item_watch",
 	"vn_b_item_compass_sog",
 	"vn_b_item_compass",
@@ -187,6 +187,12 @@ cvo_arsenal_base append [
 
 // Binoculars
 cvo_arsenal_base append [
+	//hates camera 
+	"Old_Camera",
+	"Old_Camera_HUD",
+	"Old_Camera_Color",
+	"Old_Camera_Color_HUD",
+	//binoculars
 	"vn_m19_binocs_grn",
 	"vn_m19_binocs_grey",
 	"vn_mk21_binocs",
@@ -283,10 +289,8 @@ cvo_arsenal_base append [
 	//sog vests
 	"vn_b_vest_sog_04",
 	"vn_b_vest_sog_05",
-	"vn_b_vest_usarmy_05",
-	"vn_b_vest_usarmy_08",
-	"vn_b_vest_usarmy_06",
-	"vn_b_vest_usarmy_10"
+	"vn_b_vest_sog_06",
+	"vn_b_vest_sog_01"
 ];
 
 // Backpacks
@@ -305,6 +309,28 @@ cvo_arsenal_base append [
 
 // Headgear
 cvo_arsenal_base append [
+	//m1 helmets 
+	"vn_i_helmet_m1_02_01",
+	"vn_i_helmet_m1_03_01",
+	"vn_b_helmet_m1_01_01",
+	"vn_b_helmet_m1_14_01",
+	"vn_b_helmet_m1_15_01",
+	"vn_b_helmet_m1_16_01",
+	"vn_b_helmet_m1_18_01",
+	"vn_b_helmet_m1_17_01",
+	"vn_b_helmet_m1_19_01",
+	"vn_b_helmet_m1_02_01",
+	"vn_b_helmet_m1_20_01",
+	"vn_b_helmet_m1_03_01",
+	"vn_b_helmet_m1_05_01",
+	"vn_b_helmet_m1_06_01",
+	"vn_b_helmet_m1_07_01",
+	"vn_b_helmet_m1_09_01",
+	"vn_b_helmet_m1_04_01",
+	"vn_b_helmet_m1_17_01",
+	"vn_b_helmet_m1_08_01",
+	"vn_b_helmet_m1_10_01",
+	"vn_b_helmet_m1_11_01",
 	//sog pith helmet
 	"vn_b_helmet_sog_01",
 	//boonies
@@ -375,6 +401,7 @@ cvo_arsenal_base append [
 cvo_arsenal_base append [
 
 	//sog facewear 
+	"vn_o_poncho_01_01",
 	"vn_b_bandana_a",
 	"vn_o_bandana_b",
 	"vn_o_bandana_g",
