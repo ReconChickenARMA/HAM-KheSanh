@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=927;
+		nextID=955;
 	};
 	class Camera
 	{
-		pos[]={10811.276,104.97269,3140.2117};
-		dir[]={0.37113044,-0.70294172,-0.606749};
-		up[]={0.36679393,0.7112444,-0.59965944};
-		aside[]={-0.85307354,-5.6927092e-08,-0.52179974};
+		pos[]={10805.807,104.97269,3131.9792};
+		dir[]={-0.68490183,-0.55149144,0.47621399};
+		up[]={-0.45279974,0.83417642,0.31483307};
+		aside[]={0.57087517,5.1804818e-08,0.82104504};
 	};
 };
 binarizationWanted=0;
@@ -434,10 +434,22 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
+				};
+			};
+		};
+		class Attribute1
 		{
 			property="RespawnButton";
 			expression="true";
@@ -450,21 +462,9 @@ class CustomAttributes
 				};
 			};
 		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="ARRAY";
-				};
-			};
-		};
 		nAttributes=2;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -21429,14 +21429,14 @@ class Mission
 									{
 										class Attribute0
 										{
-											property="face";
-											expression="_this setface _value;";
+											property="ENH_doStop";
+											expression="if (!is3DEN && _value) then {doStop _this}";
 											class Value
 											{
 												class data
 												{
-													singleType="STRING";
-													value="vn_vietnamese_02_01_face";
+													singleType="BOOL";
+													value=1;
 												};
 											};
 										};
@@ -21540,14 +21540,14 @@ class Mission
 										};
 										class Attribute5
 										{
-											property="ENH_doStop";
-											expression="if (!is3DEN && _value) then {doStop _this}";
+											property="face";
+											expression="_this setface _value;";
 											class Value
 											{
 												class data
 												{
-													singleType="BOOL";
-													value=1;
+													singleType="STRING";
+													value="vn_vietnamese_02_01_face";
 												};
 											};
 										};

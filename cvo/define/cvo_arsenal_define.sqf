@@ -204,6 +204,8 @@ cvo_arsenal_base append [
 
 // NVGs
 cvo_arsenal_base append [	
+	"SAN_Headlamp_v1",
+	"SAN_Headlamp_v2",
 	"cigs_Voron_cig0_nv",
 	"cigs_cigars_cigar0_nv",
 	"cigs_cigars_cigar2_nv",
@@ -475,6 +477,8 @@ cvo_arsenal_base append  [
 	"vn_mg42",
 	"vn_mg42_50_mag",
 	"vn_mg42_50_t_mag",
+	"sog_mg_belts_mg42_100_mag",
+	"sog_mg_belts_mg42_100_t_mag",
 	//mc-10
 	"vn_mc10",
 	"vn_mc10_mag",
