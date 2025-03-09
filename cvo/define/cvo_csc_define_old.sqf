@@ -123,7 +123,7 @@ private _cvo_csc_source = cvo_csc_source;
 	[
 		["ACE_personalAidKit", 5],
 		["ACE_salineIV_500", 5],
-		["ACE_Humanitarian_Ration", 25],
+		["vn_prop_food_sack_01", 25],
 		["ACE_WaterBottle", 25],
 
 		["ACE_fieldDressing", 30],

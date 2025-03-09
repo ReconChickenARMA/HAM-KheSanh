@@ -1055,7 +1055,7 @@ btc_rep_level_low = 200;
 btc_rep_level_normal = 500;
 btc_rep_level_high = 750;
 
-btc_rep_food = "ACE_Humanitarian_Ration";
+btc_rep_food = "vn_prop_food_sack_01";
 
 //Headless
 btc_units_owners = [];

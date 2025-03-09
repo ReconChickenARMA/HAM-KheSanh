@@ -166,11 +166,11 @@ _action = ["Civil_Go_away", localize "STR_BTC_HAM_ACTION_ORDERS_GOAWAY", "\A3\ui
     [_x, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToClass;
     _action = ["Ask_Reputation", localize "STR_BTC_HAM_ACTION_ORDERS_ASKREP", "\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa", {[_target] spawn btc_info_fnc_ask_reputation;}, {alive _target && {[_target] call ace_common_fnc_isAwake} && {side _target isEqualTo civilian}}] call ace_interact_menu_fnc_createAction;
     [_x, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToClass;
-    _action = ["Give_food", localize "STR_BTC_HAM_ACTION_GIVEFOOD", "\z\ace\addons\common\data\icon_banana_ca.paa", {[player, _target] call btc_int_fnc_foodGive}, {alive _target && {btc_rep_food in items player}}] call ace_interact_menu_fnc_createAction;
+    _action = ["Give_food", localize "STR_BTC_HAM_ACTION_GIVEFOOD", "\vn\weapons_f_vietnam\ui\icon_vn_prop_food_sack_01_ca.paa", {[player, _target] call btc_int_fnc_foodGive}, {alive _target && {btc_rep_food in items player}}] call ace_interact_menu_fnc_createAction;
     [_x, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToClass;
 
     //remove ace3 "get down" order
-    [_x, 0, ["ACE_MainActions", "ACE_GetDown"]] call ace_interact_menu_fnc_removeActionFromClass;
+    [_x, 0, ["ACE_MainActions", "ACE_GetDown"]] call ace_interact_menu_fnc_removeActionFromClass; 
     //remove ace3 "go away" order
     [_x, 0, ["ACE_MainActions", "ACE_SendAway"]] call ace_interact_menu_fnc_removeActionFromClass;
 } forEach btc_civ_type_units;

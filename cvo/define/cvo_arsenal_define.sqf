@@ -151,7 +151,7 @@ private _rations = [
 cvo_arsenal_base append _rations;
 
 cvo_arsenal_base append [
-	"ACE_Humanitarian_Ration",
+	"vn_prop_food_sack_01",
 
 	"ACE_MapTools",
 	"ace_marker_flags_yellow",
@@ -1046,7 +1046,7 @@ cvo_arsenal_playerKit = createHashMapFromArray [
 
 [
 	"Rifleman - Basic",
-	[[["vn_xm177",["vn_m16_20_mag",20],[],""],[],[],["vn_b_uniform_macv_01_03",[["ACE_packingBandage",10],["ACE_fieldDressing",10],["ACE_painkillers",1],["ACE_epinephrine",1],["ACE_tourniquet",2],["ACE_splint",1],["ACE_CableTie",2],["ACE_EarPlugs",2],["ACE_MapTools",1],["ACE_bodyBag",2],["acex_intelitems_notepad",1,1]]],["vn_b_vest_sog_04",[["ACRE_PRC343",1],["ACE_SpraypaintRed",1],["vn_m18_white_mag",2,1],["vn_v40_grenade_mag",2,1],["vn_m16_20_mag",7,20]]],["vn_b_pack_01",[["ACE_bodyBag",2],["ACE_personalAidKit",1],["ACE_EntrenchingTool",1],["ACE_Humanitarian_Ration",2],["ACE_WaterBottle",2],[selectRandom _rations,1],["ACE_salineIV_500",2],["ace_marker_flags_red",5],["ACE_EarPlugs",2],["vn_m16_20_mag",3,20],["vn_m18_white_mag",2,1]]],"vn_b_boonie_02_01","",["vn_m19_binocs_grn","","","",[],[],""],["ItemMap","","ItemCompass","vn_b_item_watch",""]],[["ace_arsenal_insignia","CVO_insignia_11_PVT"]]]
+	[[["vn_xm177",["vn_m16_20_mag",20],[],""],[],[],["vn_b_uniform_macv_01_03",[["ACE_packingBandage",10],["ACE_fieldDressing",10],["ACE_painkillers",1],["ACE_epinephrine",1],["ACE_tourniquet",2],["ACE_splint",1],["ACE_CableTie",2],["ACE_EarPlugs",2],["ACE_MapTools",1],["ACE_bodyBag",2],["acex_intelitems_notepad",1,1]]],["vn_b_vest_sog_04",[["ACRE_PRC343",1],["ACE_SpraypaintRed",1],["vn_m18_white_mag",2,1],["vn_v40_grenade_mag",2,1],["vn_m16_20_mag",7,20]]],["vn_b_pack_01",[["ACE_bodyBag",2],["ACE_personalAidKit",1],["ACE_EntrenchingTool",1],["vn_prop_food_sack_01",2],["ACE_WaterBottle",2],[selectRandom _rations,1],["ACE_salineIV_500",2],["ace_marker_flags_red",5],["ACE_EarPlugs",2],["vn_m16_20_mag",3,20],["vn_m18_white_mag",2,1]]],"vn_b_boonie_02_01","",["vn_m19_binocs_grn","","","",[],[],""],["ItemMap","","ItemCompass","vn_b_item_watch",""]],[["ace_arsenal_insignia","CVO_insignia_11_PVT"]]]
 ] call ace_arsenal_fnc_addDefaultLoadout;
 */
 diag_log ("[CVO] [Arsenal_Define] - completed");
