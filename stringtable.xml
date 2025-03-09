@@ -2043,11 +2043,11 @@
                 <Czech>Vyžádejte si pověst</Czech>
             </Key>
             <Key ID="STR_BTC_HAM_ACTION_GIVEFOOD">
-                <Original>Give a banana</Original>
-                <German>Banane geben</German>
+                <Original>Give Sack of Rice</Original>
+                <German>Reis geben</German>
                 <Chinesesimp>给他一根香蕉</Chinesesimp>
-                <Czech>Dejte banán</Czech>
-                <French>Donner une banane</French>
+                <Czech>Dejte MRE</Czech>
+                <French>Donner une MRE</French>
             </Key>
         </Container>
         <Container name="Action(ACE): Side missions">
