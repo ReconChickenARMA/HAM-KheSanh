@@ -139,14 +139,11 @@ cvo_arsenal_base append [
 // Tools & Equipment
 
 private _rations = [
-	"ACE_MRE_BeefStew",
-	"ACE_MRE_ChickenTikkaMasala",
-	"ACE_MRE_ChickenHerbDumplings",
-	"ACE_MRE_CreamChickenSoup",
-	"ACE_MRE_CreamTomatoSoup",
-	"ACE_MRE_LambCurry",
-	"ACE_MRE_MeatballsPasta",
-	"ACE_MRE_SteakVegetables"
+	"vn_prop_food_pir_01_03",
+	"vn_prop_food_pir_01_05",
+	"vn_prop_food_pir_01_04",
+	"vn_prop_food_pir_01_02",
+	"vn_prop_food_pir_01_01"
 ];
 cvo_arsenal_base append _rations;
 
