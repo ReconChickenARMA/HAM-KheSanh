@@ -218,7 +218,7 @@ cvo_arsenal_base append [
 ];
 
 // Radios
-cvo_arsenal_base append  ["ACRE_PRC343"];
+cvo_arsenal_base append  [];
 
 // ###### Wearables ###### 
 
@@ -1000,7 +1000,7 @@ cvo_arsenal_roleKit = createHashMapFromArray [
 		"ACRE_VHF30108", 
 		"ACRE_VHF30108MAST",
 		//LR radio
-		"ACRE_PRC148"],
+		"ACRE_PRC77"],
 	{}]],
 	["Officer", [
 		[
@@ -1014,7 +1014,7 @@ cvo_arsenal_roleKit = createHashMapFromArray [
 		"ACRE_VHF30108SPIKE", 
 		"ACRE_VHF30108", 
 		"ACRE_VHF30108MAST",
-		"ACRE_PRC148"
+		"ACRE_PRC343"
 		],
 		{}]]
 ];

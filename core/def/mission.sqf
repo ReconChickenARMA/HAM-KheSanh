@@ -474,7 +474,6 @@ if (isServer) then {
     ];
     btc_type_tags_sentences = [
         "DUCK",
-        "CAREFUL",
         "RUN",
         "HIDE"
     ];
@@ -500,7 +499,43 @@ if (isServer) then {
             "offroad" in toLower _x
         })
     });
-    btc_type_ieds = _ieds - ["Land_Garbage_line_F","Land_Garbage_square3_F","Land_Garbage_square5_F", "Land_MarketShelter_F", "Land_ClothShelter_01_F", "Land_ClothShelter_02_F"];
+    btc_type_ieds = _ieds - ["Land_vn_basket_ep1", 
+"Land_vn_c_prop_basket_04", 
+"Land_vn_canisteroil_f", 
+"Land_vn_popelnice", 
+"Land_vn_pallets_f", 
+"Land_vn_c_prop_pot_02", 
+"Land_vn_c_prop_pot_03", 
+"Land_vn_c_prop_pot_04", 
+"Land_vn_sack_ep1", 
+"Land_vn_transport_crates_ep1", 
+"Land_vn_vase_loam_ep1", 
+"Land_vn_vase_loam_2_ep1", 
+"Land_vn_vase_loam_3_ep1", 
+"Land_vn_object_trashcan_01", 
+"Land_vn_object_trashcan_02", 
+"Land_vn_canisterfuel_blue_f", 
+"Land_vn_canisterfuel_red_f", 
+"Land_vn_canisterfuel_white_f", 
+"Land_vn_bicycle_01_wreck", 
+"Land_vn_wicker_basket_ep1", 
+"Land_vn_woodencart_f", 
+"Land_vn_garbageheap_01_f", 
+"Land_vn_garbageheap_02_f", 
+"Land_vn_garbageheap_03_f", 
+"Land_vn_garbageheap_04_f", 
+"Land_vn_sack_f", 
+"Land_vn_sacks_goods_f", 
+"Land_vn_sacks_heap_f", 
+"Land_vn_wheel_cart_ep1", 
+"Land_vn_woodencrate_01_f", 
+"Land_vn_woodencrate_01_stack_x3_f", 
+"Land_vn_woodencrate_01_stack_x5_f", 
+"Land_vn_c_prop_car_02_02", 
+"Land_vn_c_prop_car_03_02", 
+"Land_vn_c_prop_car_01_02", 
+"Land_vn_c_prop_car_04_02",
+"Land_Garbage_line_F","Land_Garbage_square3_F","Land_Garbage_square5_F", "Land_MarketShelter_F", "Land_ClothShelter_01_F", "Land_ClothShelter_02_F"];
     btc_model_ieds = btc_type_ieds apply {(toLower getText(_cfgVehicles >> _x >> "model")) select [1]};
     btc_type_blacklist = btc_type_tags + btc_type_flowers + ["UserTexture1m_F"]; publicVariable "btc_type_blacklist";
 
