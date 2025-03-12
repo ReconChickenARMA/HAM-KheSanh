@@ -20,7 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1123;
+		nextID=1179;
 	};
 	class Camera
 	{
@@ -31,7 +31,7 @@ class EditorData
 	};
 };
 binarizationWanted=0;
-sourceName="HAM-KheSanh";
+sourceName="ham-khesanh";
 addons[]=
 {
 	"A3_Modules_F_Curator_Curator",
@@ -55,7 +55,7 @@ addons[]=
 	"weapons_f_vietnam_04_c",
 	"ace_compat_sog",
 	"static_f_vietnam_c",
-	"WBK_BloodDyingMod",
+	"WBK_DyingAnimationsMod",
 	"ace_medical_treatment",
 	"ace_intelitems",
 	"ace_hearing",
@@ -248,8 +248,8 @@ class AddonsMetaData
 		};
 		class Item21
 		{
-			className="WBK_BloodDyingMod";
-			name="WBK_BloodDyingMod";
+			className="WBK_DyingAnimationsMod";
+			name="WBK_DyingAnimationsMod";
 		};
 		class Item22
 		{
@@ -4236,7 +4236,7 @@ class Mission
 							};
 							id=1042;
 							type="vn_b_air_uh1c_07_07";
-							atlOffset=0.006690979;
+							atlOffset=0.042785645;
 						};
 						class Item6
 						{
@@ -4270,7 +4270,7 @@ class Mission
 							};
 							id=1044;
 							type="vn_b_air_uh1d_02_07";
-							atlOffset=0.010803223;
+							atlOffset=0.0037384033;
 						};
 						class Item8
 						{
@@ -33032,6 +33032,7 @@ class Mission
 							};
 							id=1189;
 							type="Land_vn_b_helipad_01";
+							atlOffset=0.0071258545;
 						};
 						class Item1
 						{
