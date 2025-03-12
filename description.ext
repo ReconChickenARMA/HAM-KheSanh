@@ -60,3 +60,4 @@ wreckManagerMode = 0;
 corpseManagerMode = 0;
 
 #include "VNSupport.hpp"
+#include "CfgPlaylists.hpp"
