@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=3027;
+		nextID=3029;
 	};
 	class MarkerIDProvider
 	{
@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={10823.745,108.99325,3137.8557};
-		dir[]={-0.77517343,-0.62858343,0.063843928};
-		up[]={-0.62650663,0.77770364,0.051598094};
-		aside[]={0.082085505,4.8229413e-07,0.99666548};
+		pos[]={10992.041,131.39594,3242.8091};
+		dir[]={-0.59145778,-0.55793953,-0.58222985};
+		up[]={-0.39765498,0.8298372,-0.39145377};
+		aside[]={-0.70156425,2.8871e-07,0.71268004};
 	};
 };
 binarizationWanted=0;
@@ -434,7 +434,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -464,7 +464,7 @@ class CustomAttributes
 		};
 		nAttributes=2;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -765,7 +765,20 @@ class CustomAttributes
 				};
 			};
 		};
-		nAttributes=3;
+		class Attribute3
+		{
+			property="cba_settings_hasSettingsFile";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="BOOL";
+					value=1;
+				};
+			};
+		};
+		nAttributes=4;
 	};
 };
 class Mission
@@ -796,7 +809,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=37;
+		items=38;
 		class Item0
 		{
 			dataType="Logic";
@@ -55830,6 +55843,35 @@ class Mission
 			id=2935;
 			type="Land_vn_lampshabby_f_dir_close";
 			atlOffset=0.0015258789;
+		};
+		class Item37
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10968.939,98.481445,3212.7839};
+						angles[]={0,4.5356774,-0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=3028;
+					type="vn_b_men_sog_09";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=3027;
 		};
 	};
 };
