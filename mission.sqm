@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=3197;
+		nextID=3213;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1039;
+		nextID=1123;
 	};
 	class Camera
 	{
-		pos[]={10908.167,122.55711,3146.9246};
-		dir[]={-0.80312741,-0.39374799,0.44718763};
-		up[]={-0.3440223,0.91921467,0.19155435};
-		aside[]={0.4864836,-2.8318027e-07,0.87370175};
+		pos[]={10922.281,194.09723,3257.5205};
+		dir[]={-0.76593179,-0.43523917,-0.47319692};
+		up[]={-0.37027431,0.90031481,-0.22875755};
+		aside[]={-0.52559042,1.4901161e-08,0.85073757};
 	};
 };
 binarizationWanted=0;
@@ -45,6 +45,8 @@ addons[]=
 	"armor_f_vietnam_03_c",
 	"air_f_vietnam_c",
 	"air_f_vietnam_03_c",
+	"air_f_vietnam_04_c",
+	"air_f_vietnam_02_c",
 	"characters_f_vietnam_c",
 	"weapons_f_vietnam_c",
 	"weapons_f_vietnam_03_c",
@@ -76,7 +78,6 @@ addons[]=
 	"characters_f_vietnam_05_c",
 	"weapons_f_vietnam_05_c",
 	"A3_Structures_F_Heli_Civ_Market",
-	"air_f_vietnam_04_c",
 	"A3_Props_F_Enoch_Civilian_Camping",
 	"A3_Structures_F_Bootcamp_Civ_SportsGrounds",
 	"ace_compat_sog_hearing",
@@ -97,7 +98,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=54;
+		items=55;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -177,295 +178,302 @@ class AddonsMetaData
 		};
 		class Item11
 		{
+			className="air_f_vietnam_04_c";
+			name="air_f_vietnam_04_c";
+			author="Savage Game Design";
+			url="https://www.arma3.com";
+		};
+		class Item12
+		{
+			className="air_f_vietnam_02_c";
+			name="air_f_vietnam_02_c";
+			author="Savage Game Design";
+			url="https://www.arma3.com";
+		};
+		class Item13
+		{
 			className="characters_f_vietnam_c";
 			name="characters_f_vietnam_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item14
 		{
 			className="weapons_f_vietnam_c";
 			name="weapons_f_vietnam_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item15
 		{
 			className="weapons_f_vietnam_03_c";
 			name="weapons_f_vietnam_03_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item16
 		{
 			className="sounds_f_vietnam_c";
 			name="sounds_f_vietnam_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item15
+		class Item17
 		{
 			className="cba_jam_vn";
 			name="Community Base Addons - Joint Ammo Magazines";
 			author="CBA Team";
 			url="https://www.github.com/CBATeam/CBA_A3";
 		};
-		class Item16
+		class Item18
 		{
 			className="weapons_f_vietnam_04_c";
 			name="weapons_f_vietnam_04_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item19
 		{
 			className="ace_compat_sog";
 			name="ACE3 - S.O.G. Prairie Fire Compatibility";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item18
+		class Item20
 		{
 			className="static_f_vietnam_c";
 			name="static_f_vietnam_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item19
+		class Item21
 		{
 			className="WBK_BloodDyingMod";
 			name="WBK_BloodDyingMod";
 		};
-		class Item20
+		class Item22
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item21
+		class Item23
 		{
 			className="ace_intelitems";
 			name="ACE3 - Intel Items";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item22
+		class Item24
 		{
 			className="ace_hearing";
 			name="ACE3 - Hearing";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item23
+		class Item25
 		{
 			className="ace_maptools";
 			name="ACE3 - Map Tools";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item24
+		class Item26
 		{
 			className="ace_flashlights";
 			name="ACE3 - Flashlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item25
+		class Item27
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item26
+		class Item28
 		{
 			className="ace_field_rations";
 			name="ACE3 - Field Rations";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item27
+		class Item29
 		{
 			className="characters_f_vietnam_04_c";
 			name="characters_f_vietnam_04_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item28
+		class Item30
 		{
 			className="modules_f_vietnam";
 			name="modules_f_vietnam";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item29
+		class Item31
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item30
+		class Item32
 		{
 			className="structures_f_vietnam_c";
 			name="structures_f_vietnam_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item31
+		class Item33
 		{
 			className="3den_Objects";
 			name="3den_Objects";
 		};
-		class Item32
+		class Item34
 		{
 			className="A3_Weapons_F_Orange";
 			name="Arma 3 Orange - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item33
+		class Item35
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item34
+		class Item36
 		{
 			className="objects_f_vietnam_02_c";
 			name="objects_f_vietnam_02_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item35
+		class Item37
 		{
 			className="objects_f_vietnam_03_c";
 			name="objects_f_vietnam_03_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item36
+		class Item38
 		{
 			className="A3_expEden";
 			name="O&T Expansion Eden - main configuration";
 			author="Trager";
 			url="https://steamcommunity.com/workshop/filedetails/?id=1923321700";
 		};
-		class Item37
+		class Item39
 		{
 			className="weapons_v_f_vietnam_c";
 			name="weapons_v_f_vietnam_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item38
+		class Item40
 		{
 			className="wheeled_f_vietnam_04_c";
 			name="wheeled_f_vietnam_04_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item39
+		class Item41
 		{
 			className="characters_f_vietnam_05_c";
 			name="characters_f_vietnam_05_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item40
+		class Item42
 		{
 			className="weapons_f_vietnam_05_c";
 			name="weapons_f_vietnam_05_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item41
-		{
-			className="air_f_vietnam_04_c";
-			name="air_f_vietnam_04_c";
-			author="Savage Game Design";
-			url="https://www.arma3.com";
-		};
-		class Item42
+		class Item43
 		{
 			className="A3_Structures_F_Bootcamp";
 			name="Arma 3 Bootcamp Update - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item43
+		class Item44
 		{
 			className="characters_f_vietnam_03_c";
 			name="characters_f_vietnam_03_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item44
+		class Item45
 		{
 			className="cigs_savage";
 			name="Immersion Cigs - Rewrite - Savage - Compatibility for SOG:PF";
 			author="CVO TEAM";
 			url="https://github.com/OverlordZorn/cvo-media";
 		};
-		class Item45
+		class Item46
 		{
 			className="ace_compat_sog_refuel";
 			name="ACE3 - S.O.G. Prairie Fire Compatibility - refuel";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item46
+		class Item47
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item47
+		class Item48
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item48
+		class Item49
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item49
+		class Item50
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item50
+		class Item51
 		{
 			className="wheeled_f_vietnam_05_c";
 			name="wheeled_f_vietnam_05_c";
 			author="Savage Game Design";
 			url="https://www.arma3.com";
 		};
-		class Item51
+		class Item52
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item52
+		class Item53
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item53
+		class Item54
 		{
 			className="boat_f_vietnam_02_c";
 			name="boat_f_vietnam_02_c";
@@ -479,8 +487,8 @@ dlcs[]=
 	"Enoch",
 	"Heli",
 	"VN",
-	"3den_objects_mod",
 	"VNX",
+	"3den_objects_mod",
 	"Expansion"
 };
 randomSeed=2442963;
@@ -503,6 +511,18 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -511,18 +531,6 @@ class CustomAttributes
 				{
 					singleType="SCALAR";
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="ARRAY";
 				};
 			};
 		};
@@ -3871,7 +3879,7 @@ class Mission
 					name="btc_vehicles";
 					class Entities
 					{
-						items=8;
+						items=14;
 						class Item0
 						{
 							dataType="Object";
@@ -4264,9 +4272,111 @@ class Mission
 							type="vn_b_air_uh1d_02_07";
 							atlOffset=0.010803223;
 						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9413.2393,235.99655,6676.458};
+								angles[]={0,0.21690941,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=3203;
+							type="vnx_b_air_ac119_01_01";
+							atlOffset=0.0073852539;
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9588.1621,235.82452,6674.5752};
+								angles[]={6.28019,1.7105539,6.2809286};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=3205;
+							type="vnx_b_air_ac119_04_01";
+							atlOffset=-0.061889648;
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9477.7305,235.98404,6693.627};
+								angles[]={6.2809896,1.737862,0.0030597833};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=3204;
+							type="vnx_b_air_ac119_03_01";
+							atlOffset=0.14237976;
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9599.502,234.14561,6592.3169};
+								angles[]={0.0037458511,5.5477042,6.2829986};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=3206;
+							type="vn_b_air_f100d_at";
+							atlOffset=-0.12080383;
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9665.6865,234.40175,6583.8018};
+								angles[]={6.2795053,5.3041162,6.2824636};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=3208;
+							type="vn_b_air_f4b_usmc_at";
+							atlOffset=-0.12928772;
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9630.5049,234.35048,6584.1069};
+								angles[]={0,5.7054157,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=3207;
+							type="vn_b_air_f4c_at";
+							atlOffset=-0.1075592;
+						};
 					};
 					id=247;
-					atlOffset=30.521584;
+					atlOffset=-1.569046;
 				};
 				class Item11
 				{
@@ -11688,7 +11798,7 @@ class Mission
 				};
 			};
 			id=307;
-			atlOffset=60.055969;
+			atlOffset=60.033417;
 		};
 		class Item6
 		{
@@ -21982,14 +22092,14 @@ class Mission
 									{
 										class Attribute0
 										{
-											property="face";
-											expression="_this setface _value;";
+											property="ENH_doStop";
+											expression="if (!is3DEN && _value) then {doStop _this}";
 											class Value
 											{
 												class data
 												{
-													singleType="STRING";
-													value="vn_vietnamese_02_01_face";
+													singleType="BOOL";
+													value=1;
 												};
 											};
 										};
@@ -22093,14 +22203,14 @@ class Mission
 										};
 										class Attribute5
 										{
-											property="ENH_doStop";
-											expression="if (!is3DEN && _value) then {doStop _this}";
+											property="face";
+											expression="_this setface _value;";
 											class Value
 											{
 												class data
 												{
-													singleType="BOOL";
-													value=1;
+													singleType="STRING";
+													value="vn_vietnamese_02_01_face";
 												};
 											};
 										};

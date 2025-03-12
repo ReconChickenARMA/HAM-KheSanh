@@ -499,11 +499,10 @@ if (isServer) then {
             "offroad" in toLower _x
         })
     });
-    btc_type_ieds = _ieds - ["Land_vn_basket_ep1", 
+    btc_type_ieds = ["Land_vn_basket_ep1", 
 "Land_vn_c_prop_basket_04", 
 "Land_vn_canisteroil_f", 
-"Land_vn_popelnice", 
-"Land_vn_pallets_f", 
+"Land_vn_popelnice",
 "Land_vn_c_prop_pot_02", 
 "Land_vn_c_prop_pot_03", 
 "Land_vn_c_prop_pot_04", 
@@ -530,11 +529,14 @@ if (isServer) then {
 "Land_vn_wheel_cart_ep1", 
 "Land_vn_woodencrate_01_f", 
 "Land_vn_woodencrate_01_stack_x3_f", 
-"Land_vn_woodencrate_01_stack_x5_f", 
-"Land_vn_c_prop_car_02_02", 
-"Land_vn_c_prop_car_03_02", 
-"Land_vn_c_prop_car_01_02", 
-"Land_vn_c_prop_car_04_02"];
+"Land_vn_woodencrate_01_stack_x5_f",
+"vn_wheeled_m151_01_wreck", 
+"vn_wheeled_m274_01_wreck", 
+"vnx_wheeled_tuktuk_01_wreck", 
+"vn_wheeled_lr2a_01_wreck", 
+"vn_wheeled_lr2a_03_wreck", 
+"vn_wheeled_lr2a_mg_wreck", 
+"Land_vn_b_prop_m149_wreck"];
     btc_model_ieds = btc_type_ieds apply {(toLower getText(_cfgVehicles >> _x >> "model")) select [1]};
     btc_type_blacklist = btc_type_tags + btc_type_flowers + ["UserTexture1m_F"]; publicVariable "btc_type_blacklist";
 
