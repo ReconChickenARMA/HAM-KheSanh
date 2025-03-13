@@ -14,6 +14,11 @@ force acex_field_rations_waterSourceActions = 2;
 
 // DUI STUFF
 
+// DUI - Squad Radar - Line Compass
+force diwako_dui_linecompass_Enabled = false;
+force diwako_dui_linecompass_CompassAvailableShown = true;
+
+
 
 // DUI - Squad Radar - Indicators
 force diwako_dui_indicators_crew_range_enabled = false;
