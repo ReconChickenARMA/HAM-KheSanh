@@ -108,7 +108,7 @@ if (isClass (configfile >> "CfgPatches" >> "greenmag_main")) then {
 
 
 // Immersion Cigs
-cvo_arsenal_base append [] call cigs_core_fnc_getAllItems;
+// cvo_arsenal_base append ([] call cigs_core_fnc_getAllItems);
 
 cvo_arsenal_base append [
 	"cigs_Voron_cigpack",
@@ -120,6 +120,14 @@ cvo_arsenal_base append [
 	"cigs_morley_cigpack",
 	"cigs_savage_cigpack"
 ];
+
+cvo_arsenal_base append [
+	"FISH_Cream_Kit_Tropical",
+	"FISH_Cream_Kit_Snow",
+	"FISH_Cream_Kit_Europe",
+	"FISH_Cream_Kit_Desert"
+];
+
 
 // Medical 
 cvo_arsenal_base append [
