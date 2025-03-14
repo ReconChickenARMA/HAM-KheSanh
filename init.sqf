@@ -19,4 +19,4 @@ if (hasInterface) then {
 };
 
 
-// ["INIT", [btc_startDate]] call CVO_fnc_mapinfo;
+["INIT", [btc_startDate]] call CVO_fnc_mapinfo;
