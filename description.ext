@@ -30,6 +30,7 @@ class RscTitles {
 class CfgFunctions {
     // add your own functions below
     #include "vn_ron\CfgFunctions.hpp"
+    #include "map_info\CfgFunctions.hpp"
 };
 
 // CBA XEH

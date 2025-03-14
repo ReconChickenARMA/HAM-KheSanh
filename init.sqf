@@ -17,3 +17,6 @@ if (hasInterface) then {
     // Init Gesture Menu with a default range of 60m
     [objNull, [], true] call vn_fnc_module_UI_gestureMenu_init;
 };
+
+
+// ["INIT", [btc_startDate]] call CVO_fnc_mapinfo;
