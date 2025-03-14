@@ -1077,4 +1077,4 @@ btc_flag_textures = [
 btc_body_bagTicketPlayer = 1;
 btc_body_prisonerTicket = 1;
 
-btc_startDate = [1971, 1, 31, 12, 15];
+btc_startDate = [1971, 1, 31, 05, 30];
