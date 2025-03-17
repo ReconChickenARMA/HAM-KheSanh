@@ -12,7 +12,7 @@ if (!isServer) exitWith {};
 
 params [
 	["_mode", "INIT", [""]],
-	["_params",[btc_startDate],[]]
+	["_params", [btc_startDate],[]]
 ];
 
 switch (_mode) do {
