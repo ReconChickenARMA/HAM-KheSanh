@@ -42,9 +42,6 @@ execVM "cvo\misc\cvo_jobboard.sqf";
 // Init Support Drones
 //execVM "cvo\support\cvo_support_init.sqf";
 
-// Init Map Module
-execVM "cvo\map\cvo_map_init.sqf";
-
 // Init for CVO IED's
 execVM "cvo\IED\cvo_ied_init.sqf";
 
@@ -61,5 +58,3 @@ cvo_debug = false;
 
 diag_log ("[CVO] [INIT] (cvo_init.sqf) - END");
 
-
-cvo_fnc_leaflet = compileScript ["cvo\misc\cvo_leaflet.sqf"];
