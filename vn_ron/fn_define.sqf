@@ -30,6 +30,6 @@ vn_ron_interruption_enemy_sides = [east];
 vn_ron_interruption_enemy_distance = 100;
 
 vn_ron_interruption_location_types = ["NameLocal","NameVillage"];
-vn_ron_interruption_location_distance = 500;
+vn_ron_interruption_location_distance = 300;
 
 vn_ron_suppress_lastSuppressed_delta = 300; // time in secounds - player shall not be engaged(suppressed) for atleast this time to be able to rest.
