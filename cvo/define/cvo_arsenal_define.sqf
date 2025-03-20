@@ -406,7 +406,8 @@ cvo_arsenal_base append [
 
 // Facewear
 cvo_arsenal_base append [
-
+	//balaclavas, not resposible for any fungal infection 
+	"G_Balaclava_blk",
 	//sog facewear 
 	"vn_o_poncho_01_01",
 	"vn_b_bandana_a",
@@ -436,6 +437,11 @@ cvo_arsenal_base append [
 
 // Rifles
 cvo_arsenal_base append  [
+	//svd 
+	"vn_svd",
+	"vn_o_4x_svd",
+	"vn_svd_mag",
+	"vn_svd_t_mag",
 	//m197 shotgun 
 	"vn_m1897",
 	"vn_m1897_buck_mag",
