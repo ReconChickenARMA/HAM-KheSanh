@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1375;
+		nextID=1403;
 	};
 	class Camera
 	{
-		pos[]={10918.479,131.81448,3155.8042};
-		dir[]={-0.83234245,-0.51142365,0.21369739};
-		up[]={-0.49536061,0.85932952,0.12718001};
-		aside[]={0.24867903,-8.5565262e-08,0.96859449};
+		pos[]={10791.259,105.0612,3163.6648};
+		dir[]={-0.6221391,-0.78196657,-0.038645517};
+		up[]={-0.78046393,0.62332165,-0.048480172};
+		aside[]={-0.061998326,-1.2191231e-07,0.99808693};
 	};
 };
 binarizationWanted=0;
@@ -511,6 +511,18 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -519,18 +531,6 @@ class CustomAttributes
 				{
 					singleType="SCALAR";
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="ARRAY";
 				};
 			};
 		};
@@ -4180,7 +4180,7 @@ class Mission
 							};
 							id=1042;
 							type="vn_b_air_uh1c_07_07";
-							atlOffset=0.042785645;
+							atlOffset=0.006690979;
 						};
 						class Item6
 						{
@@ -4214,7 +4214,7 @@ class Mission
 							};
 							id=1044;
 							type="vn_b_air_uh1d_02_07";
-							atlOffset=0.0037384033;
+							atlOffset=0.010803223;
 						};
 						class Item8
 						{
@@ -9647,7 +9647,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10803.374,98.515137,3136.8855};
+								position[]={10803.374,98.516121,3136.885};
 								angles[]={0,1.5769572,0};
 							};
 							side="West";
@@ -9704,7 +9704,6 @@ class Mission
 							};
 							id=3170;
 							type="vn_b_men_sog_27";
-							atlOffset=-0.00099182129;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -12525,7 +12524,7 @@ class Mission
 							{
 								skill=0.55000001;
 								rank="LIEUTENANT";
-								init="this setVariable [""CVO_A_Roles"",[""Officer""]];" \n "this setUnitTrait [""vn_artillery"",true,true];" \n "this setVariable [""interpreter"", true];" \n "";
+								init="this setVariable [""CVO_A_Roles"",[""Officer""]];" \n "this setUnitTrait [""vn_artillery"",true,true];" \n "this setVariable [""interpreter"", true];" \n "this setVariable [""CVO_A_Roles"",[""RTO""]];";
 								name="coy_co";
 								description="Company Command@Head Shed";
 								isPlayer=1;
@@ -12634,7 +12633,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="this setVariable [""CVO_A_Roles"",[""Officer""]];" \n "this setUnitTrait [""vn_artillery"",true,true];" \n "this setVariable [""interpreter"", true];";
+								init="this setVariable [""CVO_A_Roles"",[""Officer""]];" \n "this setUnitTrait [""vn_artillery"",true,true];" \n "this setVariable [""interpreter"", true];" \n "this setVariable [""CVO_A_Roles"",[""RTO""]];";
 								name="coy_qm";
 								description="Quartermaster@Head Shed";
 								isPlayable=1;
@@ -26476,7 +26475,6 @@ class Mission
 							};
 							id=1189;
 							type="Land_vn_b_helipad_01";
-							atlOffset=0.0071258545;
 						};
 						class Item1
 						{
