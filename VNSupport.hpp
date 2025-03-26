@@ -1105,5 +1105,19 @@ class vn_artillery_settings
                                 cost = 0;
                         };
                 };
+                class thirty_seats
+                {
+                        displayname = "30 Seats";
+                        class comanchero_1
+                        {
+                                displayname = "Air Cow";
+                                //icon = "vn\ui_f_vietnam\data\decals\";
+                                description = "A CH-57 Chinook, available for transport. Can carry up to 30 passengers, comes armed with M60 two door gunners.";
+                                vehicleclass = "vn_b_air_ch47_04_02";
+                                hook = 1;
+                                cooldown = (60*5);
+                                cost = 0;
+                        };
+                };
         };
 };
