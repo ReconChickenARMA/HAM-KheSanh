@@ -20,12 +20,12 @@ switch (_mode) do {
 	case "INIT": {
 		diag_log format["[CVO] [Map] (dateMarker) - Init Params: %1", _this];
 		
-		for "_i" from 1 to 6 do {
+		for "_i" from 1 to 7 do {
 			private _markerName = ["cvo_dateMarker",_i] joinString "_";
 			createMarkerLocal [ _markerName, [ (worldSize * 1.05), ( worldSize - ( 150 * (_i -1 ) ) ) ] ];
 			_markerName setMarkerTypeLocal   "EmptyIcon";
 			_markerName setMarkerSizeLocal   [1,1];
-			_markerName setMarkerColorLocal  "ColorEAST";
+			_markerName setMarkerColorLocal  "ColorWEST";
 			_markerName setMarkerShapeLocal  "ICON";
 			_markerName setMarkerShadowLocal true;
 			_markerName setMarkerTextLocal   "placeholder";
@@ -55,6 +55,8 @@ switch (_mode) do {
 			"cvo_dateMarker_4" setMarkerText format ["Time Acceleration: 1 RL Hour equals to %1 IG Hours", timeMultiplier];
 			"cvo_dateMarker_5" setMarkerText format ["Remaining Tickets: %1",[btc_player_side] call BIS_fnc_respawnTickets];
 			"cvo_dateMarker_6" setMarkerText format ["Remaining Support Budget: %1",missionNamespace getVariable ["cvo_budget", 0]];
+			"cvo_dateMarker_7" setMarkerText format ["Global Reputation: %1",missionNamespace getVariable ["btc_global_reputation", 0]];
+
 
 		}, 60, _params] call CBA_fnc_addPerFrameHandler;
 
