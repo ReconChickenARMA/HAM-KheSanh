@@ -1010,6 +1010,7 @@ cvo_arsenal_roleKit = createHashMapFromArray [
 		"ACRE_VHF30108SPIKE", 
 		"ACRE_VHF30108", 
 		"ACRE_VHF30108MAST",
+		"ACRE_PRC343",
 		//LR radio
 		"ACRE_PRC77"],
 	{}]],
