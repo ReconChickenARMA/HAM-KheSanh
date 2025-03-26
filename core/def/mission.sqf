@@ -965,7 +965,6 @@ btc_type_motorized = ["vn_o_bicycle_01_vcmf",
 "vn_o_wheeled_z157_ammo_vcmf", 
 "vn_o_wheeled_z157_fuel_vcmf", 
 "vn_o_wheeled_z157_04_vcmf", 
-"vn_o_wheeled_z157_03_vcmf", 
 "vn_o_wheeled_z157_repair_vcmf", 
 "vn_o_wheeled_z157_01_vcmf", 
 "vn_o_wheeled_z157_02_vcmf"]; //_allclasse select 5;
