@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1515;
+		nextID=1599;
 	};
 	class Camera
 	{
-		pos[]={11000.448,153.22618,3319.4978};
-		dir[]={-0.49608573,-0.43565235,-0.75112176};
-		up[]={-0.2400955,0.90010619,-0.36352909};
-		aside[]={-0.83446139,2.4447218e-07,0.55112779};
+		pos[]={10801.101,107.45071,3162.7373};
+		dir[]={-0.82460797,-0.55988443,0.081091933};
+		up[]={-0.55721116,0.82856268,0.054796197};
+		aside[]={0.097869001,-8.2985935e-08,0.99521315};
 	};
 };
 binarizationWanted=0;
@@ -511,18 +511,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="ARRAY";
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -531,6 +519,18 @@ class CustomAttributes
 				{
 					singleType="SCALAR";
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
 				};
 			};
 		};
@@ -9766,13 +9766,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10802.73,98.524994,3137.9536};
+								position[]={10802.73,98.524673,3137.9541};
 								angles[]={0,1.5500617,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
+								rank="LIEUTENANT";
 								init="this setUnitTrait [""vn_artillery"",true,true];" \n "this setVariable [""CVO_A_Roles"",[""Officer""]];" \n "";
 								description="Platoon Commander@Ground Command";
 								isPlayable=1;
@@ -9939,7 +9940,6 @@ class Mission
 							};
 							id=3169;
 							type="vn_b_men_sog_22";
-							atlOffset=0.00032043457;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10095,7 +10095,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10803.349,98.533966,3139.0134};
+								position[]={10803.349,98.533142,3139.0129};
 								angles[]={0,1.5126942,0};
 							};
 							side="West";
@@ -10152,7 +10152,6 @@ class Mission
 							};
 							id=3171;
 							type="vn_b_men_sog_22";
-							atlOffset=0.00081634521;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10215,7 +10214,6 @@ class Mission
 					{
 					};
 					id=3168;
-					atlOffset=0.00032043457;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -10246,7 +10244,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10805.811,98.510567,3136.0142};
+								position[]={10805.811,98.510651,3136.0142};
 								angles[]={0,4.774435,0};
 							};
 							side="West";
@@ -10312,7 +10310,7 @@ class Mission
 							};
 							id=3173;
 							type="vn_b_men_sog_23";
-							atlOffset=-0.0040817261;
+							atlOffset=-0.0039978027;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10341,7 +10339,20 @@ class Mission
 										};
 									};
 								};
-								nAttributes=2;
+								class Attribute2
+								{
+									property="acre_sys_radio_edenSetup";
+									expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
+										};
+									};
+								};
+								nAttributes=3;
 							};
 						};
 						class Item1
@@ -10777,7 +10788,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10817.381,98.592812,3135.509};
+								position[]={10817.381,98.592339,3135.509};
 								angles[]={0,0.38107517,0};
 							};
 							side="West";
@@ -10838,7 +10849,7 @@ class Mission
 							};
 							id=3177;
 							type="vn_b_men_sog_20";
-							atlOffset=0.076469421;
+							atlOffset=0.075996399;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10867,7 +10878,20 @@ class Mission
 										};
 									};
 								};
-								nAttributes=2;
+								class Attribute2
+								{
+									property="acre_sys_radio_edenSetup";
+									expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
+										};
+									};
+								};
+								nAttributes=3;
 							};
 						};
 						class Item5
@@ -10875,7 +10899,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10809.371,98.562286,3135.0049};
+								position[]={10809.371,98.561974,3135.0051};
 								angles[]={0,6.1106944,0};
 							};
 							side="West";
@@ -10958,7 +10982,7 @@ class Mission
 							};
 							id=3178;
 							type="vn_b_men_sog_31";
-							atlOffset=0.051322937;
+							atlOffset=0.051010132;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10987,7 +11011,20 @@ class Mission
 										};
 									};
 								};
-								nAttributes=2;
+								class Attribute2
+								{
+									property="acre_sys_radio_edenSetup";
+									expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
+										};
+									};
+								};
+								nAttributes=3;
 							};
 						};
 						class Item6
@@ -10995,7 +11032,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10817.22,98.674385,3136.6877};
+								position[]={10817.22,98.673904,3136.688};
 								angles[]={0,3.3832507,0};
 							};
 							side="West";
@@ -11078,7 +11115,7 @@ class Mission
 							};
 							id=3179;
 							type="vn_b_men_sog_31";
-							atlOffset=0.14546967;
+							atlOffset=0.14498901;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -11107,7 +11144,20 @@ class Mission
 										};
 									};
 								};
-								nAttributes=2;
+								class Attribute2
+								{
+									property="acre_sys_radio_edenSetup";
+									expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
+										};
+									};
+								};
+								nAttributes=3;
 							};
 						};
 						class Item7
@@ -11123,7 +11173,7 @@ class Mission
 							class Attributes
 							{
 								skill=0.40000001;
-								init="this setVariable [""translator"",""true""];";
+								init="this setVariable [""interpreter"", true];" \n "";
 								description="Rifleman (Translator)@RT Habu";
 								isPlayable=1;
 								class Inventory
@@ -11257,7 +11307,7 @@ class Mission
 							class Attributes
 							{
 								skill=0.40000001;
-								init="this setVariable [""translator"",""true""];";
+								init="this setVariable [""interpreter"", true];" \n "";
 								description="Rifleman (Translator)@RT Habu";
 								isPlayable=1;
 								class Inventory
@@ -11383,7 +11433,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10813.021,98.643723,3136.1287};
+								position[]={10813.021,98.644081,3136.1292};
 								angles[]={0,3.0065565,0};
 							};
 							side="West";
@@ -11460,7 +11510,7 @@ class Mission
 							};
 							id=3182;
 							type="vn_b_men_sog_08";
-							atlOffset=0.1236496;
+							atlOffset=0.12400055;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -11502,7 +11552,20 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								class Attribute3
+								{
+									property="acre_sys_radio_edenSetup";
+									expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
+										};
+									};
+								};
+								nAttributes=4;
 							};
 						};
 					};
@@ -11510,7 +11573,7 @@ class Mission
 					{
 					};
 					id=3172;
-					atlOffset=-0.0040817261;
+					atlOffset=-0.0039978027;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11541,7 +11604,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10807.503,98.550903,3142.1675};
+								position[]={10807.503,98.550423,3142.167};
 								angles[]={0,4.5192161,0};
 							};
 							side="West";
@@ -11615,7 +11678,6 @@ class Mission
 							};
 							id=3184;
 							type="vn_b_men_sog_01";
-							atlOffset=0.00048065186;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -11644,7 +11706,20 @@ class Mission
 										};
 									};
 								};
-								nAttributes=2;
+								class Attribute2
+								{
+									property="acre_sys_radio_edenSetup";
+									expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
+										};
+									};
+								};
+								nAttributes=3;
 							};
 						};
 						class Item1
@@ -11652,7 +11727,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10815.982,98.567917,3143.075};
+								position[]={10815.982,98.567467,3143.075};
 								angles[]={0,2.8087409,0};
 							};
 							side="West";
@@ -11737,7 +11812,7 @@ class Mission
 							};
 							id=3185;
 							type="vn_b_men_sog_19";
-							atlOffset=0.0024490356;
+							atlOffset=0.0019989014;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -11796,7 +11871,7 @@ class Mission
 							{
 								skill=0.44999999;
 								rank="CORPORAL";
-								init="this setVariable [""CVO_A_Roles"",[""Officer""]];" \n "this setVariable [""translator"",""true""];";
+								init="this setVariable [""CVO_A_Roles"",[""Officer""]];" \n "this setVariable [""interpreter"", true];" \n "";
 								description="Team Leader (Translator)@RT Sidewinder";
 								isPlayable=1;
 								class Inventory
@@ -12047,8 +12122,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10816.718,98.562553,3141.4819};
-								angles[]={0,5.8766303,0};
+								position[]={10816.718,98.562332,3141.4819};
+								angles[]={0,5.8766279,0};
 							};
 							side="West";
 							flags=4;
@@ -12112,7 +12187,7 @@ class Mission
 							};
 							id=3188;
 							type="vn_b_men_sog_20";
-							atlOffset=0.0022201538;
+							atlOffset=0.0019989014;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -12141,7 +12216,20 @@ class Mission
 										};
 									};
 								};
-								nAttributes=2;
+								class Attribute2
+								{
+									property="acre_sys_radio_edenSetup";
+									expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
+										};
+									};
+								};
+								nAttributes=3;
 							};
 						};
 						class Item5
@@ -12149,7 +12237,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10811.196,98.539803,3141.1023};
+								position[]={10811.196,98.539566,3141.1021};
 								angles[]={0,5.8810267,0};
 							};
 							side="West";
@@ -12232,7 +12320,7 @@ class Mission
 							};
 							id=3189;
 							type="vn_b_men_sog_19";
-							atlOffset=-0.013771057;
+							atlOffset=-0.014007568;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -12261,7 +12349,20 @@ class Mission
 										};
 									};
 								};
-								nAttributes=2;
+								class Attribute2
+								{
+									property="acre_sys_radio_edenSetup";
+									expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
+										};
+									};
+								};
+								nAttributes=3;
 							};
 						};
 						class Item6
@@ -12269,7 +12370,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10817.185,98.612717,3142.8662};
+								position[]={10817.185,98.613113,3142.866};
 								angles[]={0,3.394299,0};
 							};
 							side="West";
@@ -12394,7 +12495,7 @@ class Mission
 							};
 							id=3190;
 							type="vn_b_men_sog_19";
-							atlOffset=0.04460144;
+							atlOffset=0.044998169;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -12423,7 +12524,20 @@ class Mission
 										};
 									};
 								};
-								nAttributes=2;
+								class Attribute2
+								{
+									property="acre_sys_radio_edenSetup";
+									expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
+										};
+									};
+								};
+								nAttributes=3;
 							};
 						};
 						class Item7
@@ -12431,7 +12545,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10814.888,98.560951,3142.6531};
+								position[]={10814.888,98.561714,3142.6531};
 								angles[]={0,3.1067557,0};
 							};
 							side="West";
@@ -12439,7 +12553,7 @@ class Mission
 							class Attributes
 							{
 								skill=0.40000001;
-								init="this setVariable [""translator"",""true""];";
+								init="this setVariable [""interpreter"", true];" \n "";
 								description="Rifleman (Translator)@RT Sidewinder";
 								isPlayable=1;
 								class Inventory
@@ -12515,7 +12629,6 @@ class Mission
 							};
 							id=3191;
 							type="vn_b_men_sog_19";
-							atlOffset=-0.00076293945;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -12573,7 +12686,7 @@ class Mission
 							class Attributes
 							{
 								skill=0.40000001;
-								init="this setVariable [""translator"",""true""];";
+								init="this setVariable [""interpreter"", true];" \n "";
 								description="Rifleman (Translator)@RT Sidewinder";
 								isPlayable=1;
 								class Inventory
@@ -12699,7 +12812,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10813.575,98.603798,3142.7983};
+								position[]={10813.575,98.604103,3142.7981};
 								angles[]={0,3.4378972,0};
 							};
 							side="West";
@@ -12776,7 +12889,7 @@ class Mission
 							};
 							id=3193;
 							type="vn_b_men_medt_03";
-							atlOffset=0.041694641;
+							atlOffset=0.041999817;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -12818,7 +12931,20 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								class Attribute3
+								{
+									property="acre_sys_radio_edenSetup";
+									expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
+										};
+									};
+								};
+								nAttributes=4;
 							};
 						};
 					};
@@ -12826,7 +12952,6 @@ class Mission
 					{
 					};
 					id=3183;
-					atlOffset=0.00048065186;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12865,7 +12990,7 @@ class Mission
 							class Attributes
 							{
 								skill=0.55000001;
-								rank="LIEUTENANT";
+								rank="CAPTAIN";
 								init="this setVariable [""CVO_A_Roles"",[""Officer""]];" \n "this setUnitTrait [""vn_artillery"",true,true];" \n "this setVariable [""interpreter"", true];" \n "this setVariable [""CVO_A_Roles"",[""RTO""]];";
 								name="coy_co";
 								description="Company Command@Head Shed";
@@ -13096,7 +13221,7 @@ class Mission
 				};
 			};
 			id=309;
-			atlOffset=0.4747467;
+			atlOffset=0.47460175;
 		};
 		class Item7
 		{
