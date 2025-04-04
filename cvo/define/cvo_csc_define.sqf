@@ -162,7 +162,7 @@
 	[
 		["ACE_personalAidKit", 5],
 		["ACE_salineIV_500", 5],
-		["vn_prop_food_sack_01", 15],
+		["vn_prop_food_sack_01", 30],
 		["ACE_WaterBottle", 25],
 
 		["ACE_fieldDressing", 30],

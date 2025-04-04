@@ -945,6 +945,20 @@ class vn_artillery_settings
         */
         class transport
         {
+                class one_seats
+                {
+                        displayname = "1 Seat";
+                        class taxi_1
+                        {
+                                displayname = "Taxi";
+                                //icon = "vn\ui_f_vietnam\data\decals\";
+                                description = "A OH-6A Cayuse, available for transport. Can carry a single passenger, comes armed with a single M60 door gunner.";
+                                vehicleclass = "vn_b_air_oh6a_01";
+                                hook = 1;
+                                cooldown = (5);
+                                cost = 0;
+                        };
+                };
                 class seven_seats
                 {
                         displayname = $STR_VN_ARTILLERY_TRANSPORT_SEVEN_SEATS_NAME;
@@ -955,7 +969,7 @@ class vn_artillery_settings
                                 description = $STR_VN_ARTILLERY_TRANSPORT_UH1E_DESCRIPTION;
                                 vehicleclass = "vn_b_air_uh1e_03_04";
                                 hook = 1;
-                                cooldown = (60*5);
+                                cooldown = (5);
                                 cost = 0;
                         };
                         class seawolves_1
@@ -965,7 +979,7 @@ class vn_artillery_settings
                                 description = $STR_VN_ARTILLERY_TRANSPORT_UH1E_DESCRIPTION;
                                 vehicleclass = "vn_b_air_uh1e_03_04";
                                 hook = 1;
-                                cooldown = (60*5);
+                                cooldown = (5);
                                 cost = 0;
                         };
                         /*
@@ -1011,7 +1025,7 @@ class vn_artillery_settings
                                 description = $STR_VN_ARTILLERY_TRANSPORT_UH1D_DESCRIPTION;
                                 vehicleclass = "vn_i_air_uh1d_02_01";
                                 hook = 1;
-                                cooldown = (60*5);
+                                cooldown = (5);
                                 cost = 0;
                         };/*
                         class minutemen_1
@@ -1101,21 +1115,46 @@ class vn_artillery_settings
                                 description = $STR_VN_ARTILLERY_TRANSPORT_CH3D_DESCRIPTION;
                                 vehicleclass = "vn_i_air_ch34_02_02";
                                 hook = 1;
-                                cooldown = (60*5);
+                                cooldown = (5);
                                 cost = 0;
                         };
                 };
+                
                 class thirty_seats
                 {
                         displayname = "30 Seats";
-                        class comanchero_1
+                        class aircow_1
                         {
-                                displayname = "Air Cow";
+                                displayname = "Buffalo";
                                 //icon = "vn\ui_f_vietnam\data\decals\";
-                                description = "A CH-57 Chinook, available for transport. Can carry up to 30 passengers, comes armed with M60 two door gunners.";
+                                description = "A CH-57A Chinook, available for transport. Can carry up to thirty passengers, comes armed with two M60 door gunners.";
                                 vehicleclass = "vn_b_air_ch47_04_02";
                                 hook = 1;
-                                cooldown = (60*5);
+                                cooldown = (5);
+                                cost = 0;
+                        };
+                };
+                class medevac_1
+                {
+                        displayname = "Medevac";
+                        class dustoff_1
+                        {
+                                displayname = "Dustoff 1";
+                                //icon = "vn\ui_f_vietnam\data\decals\";
+                                description = "A UH-1D Dustoff, available for Medevac. Can carry up to seven wounded and two medics.";
+                                vehicleclass = "vn_b_air_ch47_02_02";
+                                hook = 1;
+                                cooldown = (5);
+                                cost = 0;
+                        };
+                        class dustoff_2
+                        {
+                                displayname = "Dustoff 2";
+                                //icon = "vn\ui_f_vietnam\data\decals\";
+                                description = "A CH-57A Chinook, available for Medevac. Can carry up to eighteen wounded and two medics.";
+                                vehicleclass = "vn_b_air_ch47_02_02";
+                                hook = 1;
+                                cooldown = (5);
                                 cost = 0;
                         };
                 };
