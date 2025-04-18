@@ -183,11 +183,9 @@ cvo_arsenal_base append [
 	"ACE_wirecutter",
 	"vn_b_item_watch",
 	"vn_b_item_compass_sog",
-	"vn_b_item_compass",
 	"ACE_SpareBarrel",
 	"ACE_RangeCard",
-	"ItemMap",
-	"ItemWatch",
+	"vn_b_item_map",
 	"ItemCompass"];
 
 // Binoculars
@@ -229,6 +227,29 @@ cvo_arsenal_base append  [];
 
 // Uniforms 
 cvo_arsenal_base append [
+	//SEAL uniforms 
+	"vn_b_uniform_seal_01_06",
+	"vn_b_uniform_seal_01_01",
+	"vn_b_uniform_seal_01_07",
+	"vn_b_uniform_seal_01_05",
+	"vn_b_uniform_seal_01_02",
+	"vn_b_uniform_seal_02_06",
+	"vn_b_uniform_seal_02_01",
+	"vn_b_uniform_seal_02_07",
+	"vn_b_uniform_seal_02_05",
+	"vn_b_uniform_seal_02_02",
+	"vn_b_uniform_seal_03_01",
+	"vn_b_uniform_seal_04_01",
+	"vn_b_uniform_seal_05_06",
+	"vn_b_uniform_seal_05_01",
+	"vn_b_uniform_seal_05_07",
+	"vn_b_uniform_seal_05_05",
+	"vn_b_uniform_seal_05_02",
+	"vn_b_uniform_seal_06_06",
+	"vn_b_uniform_seal_06_01",
+	"vn_b_uniform_seal_06_07",
+	"vn_b_uniform_seal_06_05",
+	"vn_b_uniform_seal_06_02",
 	//sog uniforms 
 	"vn_b_uniform_sog_01_03",
 	"vn_b_uniform_sog_01_01",
@@ -293,6 +314,18 @@ cvo_arsenal_base append [
 
 // Vests
 cvo_arsenal_base append [
+	//sas vest 
+	"vn_b_vest_sas_02",
+	"vn_b_vest_sas_03",
+	"vn_b_vest_sas_04",
+	"vn_b_vest_sas_01",
+	//seal vests 
+	"vn_b_vest_seal_07",
+	"vn_b_vest_seal_06",
+	"vn_b_vest_seal_03",
+	"vn_b_vest_seal_04",
+	"vn_b_vest_seal_05",
+	"vn_b_vest_seal_02",
 	//sog vests
 	"vn_b_vest_sog_04",
 	"vn_b_vest_sog_05",
@@ -302,6 +335,15 @@ cvo_arsenal_base append [
 
 // Backpacks
 cvo_arsenal_base append [
+	//sas packs 
+	"vn_b_pack_pfield_01",
+	"vn_b_pack_pfield_02",
+	"vn_b_pack_p08_01",
+	"vn_b_pack_p08_02",
+	"vn_b_pack_p08_03",
+	"vn_b_pack_p44_01",
+	"vn_b_pack_p44_02",
+	"vn_b_pack_p44_03",
 	//parachute
 	"vn_b_pack_ba22_01",
 	//sog packs 
@@ -316,6 +358,20 @@ cvo_arsenal_base append [
 
 // Headgear
 cvo_arsenal_base append [
+	//berets 
+	"vn_i_beret_03_03",
+	"vn_i_beret_03_02",
+	"vn_i_beret_03_04",
+	"vn_i_beret_03_01",
+	"vn_b_beret_01_02",
+	"vn_b_beret_01_01",
+	"vn_b_beret_01_05",
+	"vn_b_beret_01_08",
+	"vn_b_beret_01_04",
+	"vn_b_beret_01_03",
+	"vn_b_beret_04_01",
+	"vn_b_beret_01_07",
+	"vn_b_beret_01_06",
 	//m1 helmets 
 	"vn_i_helmet_m1_02_01",
 	"vn_i_helmet_m1_03_01",
@@ -341,6 +397,12 @@ cvo_arsenal_base append [
 	//sog pith helmet
 	"vn_b_helmet_sog_01",
 	//boonies
+	"vn_b_boonie_08_02",
+	"vn_b_boonie_08_01",
+	"vn_b_boonie_07_02",
+	"vn_b_boonie_07_01",
+	"vn_b_boonie_06_02",
+	"vn_b_boonie_06_01",
 	"vn_b_boonie_02_03",
 	"vn_b_boonie_02_06",
 	"vn_b_boonie_02_08",
@@ -440,6 +502,7 @@ cvo_arsenal_base append  [
 	//svd 
 	"vn_svd",
 	"vn_o_4x_svd",
+	"vn_b_camo_svd",
 	"vn_svd_mag",
 	"vn_svd_t_mag",
 	//m197 shotgun 
@@ -447,9 +510,9 @@ cvo_arsenal_base append  [
 	"vn_m1897_buck_mag",
 	"vn_m1897_fl_mag",
 	//vz54
-	"vn_vz54",
-	"vn_o_3x_vz54",
-	"vn_b_camo_vz54",
+	//"vn_vz54",
+	//"vn_o_3x_vz54",
+	//"vn_b_camo_vz54",
 	//vz61
 	"vn_vz61",
 	"vn_vz61_mag",
@@ -481,15 +544,15 @@ cvo_arsenal_base append  [
 	"vn_mpu_mag",
 	"vn_mpu_t_mag",
 	//mp40
-	"vn_mp40",
-	"vn_mp40_mag",
-	"vn_mp40_t_mag",
+	//"vn_mp40",
+	//"vn_mp40_mag",
+	//"vn_mp40_t_mag",
 	//mg-42
-	"vn_mg42",
-	"vn_mg42_50_mag",
-	"vn_mg42_50_t_mag",
-	"sog_mg_belts_mg42_100_mag",
-	"sog_mg_belts_mg42_100_t_mag",
+	//"vn_mg42",
+	//"vn_mg42_50_mag",
+	//"vn_mg42_50_t_mag",
+	//"sog_mg_belts_mg42_100_mag",
+	//"sog_mg_belts_mg42_100_t_mag",
 	//mc-10
 	"vn_mc10",
 	"vn_mc10_mag",
@@ -554,17 +617,17 @@ cvo_arsenal_base append  [
 	"vn_m3a1_mag",
 	"vn_m3a1_t_mag",
 	//m36
-	"vn_m36",
-	"vn_b_camo_m36",
-	"vn_b_m36",
-	"vn_m36_mag",
-	"vn_m36_t_mag",
+	//"vn_m36",
+	//"vn_b_camo_m36",
+	//"vn_b_m36",
+	//"vn_m36_mag",
+	//"vn_m36_t_mag",
 	//FM24/29
 	"vnx_fm2429",
 	"vnx_fm2429_mag",
 	"vnx_fm2429_t_mag",
 	//Tommy Gun
-	"vn_m1928_tommy",
+	//"vn_m1928_tommy",
 	"vn_m1928a1_tommy",
 	"vn_m1a1_tommy",
 	"vn_m1a1_tommy_so",
@@ -580,20 +643,20 @@ cvo_arsenal_base append  [
 	"vn_m1918_t_mag",
 	"vn_bipod_m1918",
 	//M1903
-	"vn_m1903",
-	"vn_m1903_gl",
-	"vn_o_8x_m1903",
-	"vn_b_m1903",
-	"vn_b_camo_m1903",
-	"vn_m1903_mag",
-	"vn_m1903_t_mag",
+	//"vn_m1903",
+	//"vn_m1903_gl",
+	//"vn_o_8x_m1903",
+	//"vn_b_m1903",
+	//"vn_b_camo_m1903",
+	//"vn_m1903_mag",
+	//"vn_m1903_t_mag",
 	//M1891/M38
 	"vn_m9130",
 	"vn_o_3x_m9130",
 	"vn_b_camo_m9130",
-	"vn_m1891",
-	"vn_m38",
-	"vn_b_m38",
+	//"vn_m1891",
+	//"vn_m38",
+	//"vn_b_m38",
 	"vn_m38_mag",
 	"vn_m38_t_mag",
 	//M14
@@ -613,20 +676,20 @@ cvo_arsenal_base append  [
 	"vn_o_m14_front",
 	"vn_m14_camo",
 	//m1 garand
-	"vn_m1_garand",
-	"vn_m1_garand_gl",
-	"vn_b_m1_garand",
-	"vn_b_camo_m1_garand",
-	"vn_m1_garand_mag",
-	"vn_m1_garand_t_mag",
+	//"vn_m1_garand",
+	//"vn_m1_garand_gl",
+	//"vn_b_m1_garand",
+	//"vn_b_camo_m1_garand",
+	//"vn_m1_garand_mag",
+	//"vn_m1_garand_t_mag",
 	//m1 carbine shorty
 	"vn_m1carbine_shorty",
 	"vn_hp_sd_mag",
 	//m1 carbine/m2
-	"vn_m1carbine",
-	"vn_m1carbine_gl",
+	//"vn_m1carbine",
+	//"vn_m1carbine_gl",
 	"vn_m2carbine",
-	"vn_m2carbine_gl",
+	//"vn_m2carbine_gl",
 	"vn_m3carbine",
 	"vn_o_3x_m84",
 	"vn_b_carbine",
@@ -644,8 +707,8 @@ cvo_arsenal_base append  [
 	//K-50m/PPs/PPsh
 	"vn_k50m",
 	"vn_pps43",
-	"vn_pps52",
-	"vn_ppsh41",
+	//"vn_pps52",
+	//"vn_ppsh41",
 	"vn_pps_mag",
 	"vn_pps_t_mag",
 	"vn_ppsh41_35_mag",
@@ -776,28 +839,31 @@ cvo_arsenal_base append [
 	"vn_izh54_mag",
 	"vn_m1895",
 	"vn_m1895_mag",
+	"vn_s_m1895",
 	"vn_m1911",
 	"vn_mx991_m1911",
 	"vn_m1911_mag",
 	"vn_m79_p",
 	"vn_mk22",
 	"vn_mk22_mag",
+	"vn_s_mk22",
 	"vn_m10",
 	"vn_m10_mag",
 	//browning hi-power 
 	"vn_hp",
 	"vn_hp_mag",
+	"vn_s_hp",
 	//welrod
 	"vn_welrod",
 	"vn_welrod_mag",
 	//vz61 sidearm
 	"vn_vz61_p",
 	//type64
-	"vn_type64",
-	"vn_type64_mag",
+	//"vn_type64",
+	//"vn_type64_mag",
 	//tt33
-	"vn_tt33",
-	"vn_tt33_mag",
+	//"vn_tt33",
+	//"vn_tt33_mag",
 	//ppk
 	"vn_ppk",
 	"vn_ppk_mag",
@@ -817,30 +883,30 @@ cvo_arsenal_base append [
 	"vn_mx991_red",
 	//melee weapons
 	"vnx_m_ladle",
-	"vnx_m_spoon_01",
-	"vnx_m_spoon_02",
-	"vn_m_axe_01",
-	"vn_m_axe_fire",
-	"vn_b_melee_k98k",
-	"vn_m_bayo_carbine",
-	"vn_b_melee_m1903",
+	//"vnx_m_spoon_01",
+	//"vnx_m_spoon_02",
+	//"vn_m_axe_01",
+	//"vn_m_axe_fire",
+	//"vn_b_melee_k98k",
+	//"vn_m_bayo_carbine",
+	//"vn_b_melee_m1903",
 	"vn_m_bayo_m1897",
-	"vn_b_melee_m36",
-	"vn_m_bayo_m4956",
+	//"vn_b_melee_m36",
+	//"vn_m_bayo_m4956",
 	"vn_m_bayo_m14",
 	"vn_m_bayo_m16",
-	"vn_m_bolo_01",
-	"vn_m_fishing_rod_01",
-	"vn_m_hammer",
+	//"vn_m_bolo_01",
+	//"vn_m_fishing_rod_01",
+	//"vn_m_hammer",
 	"vn_m_fighting_knife_01",
 	"vn_b_melee_m43_etool_01",
 	"vn_m_m51_etool_01",
 	"vn_m_machete_02",
-	"vn_m_machete_01",
+	//"vn_m_machete_01",
 	"vn_m_mk2_knife_01",
 	"vn_m_shovel_01",
 	"vn_m_typeivaxe_01",
-	"vn_m_wrench_01",
+	//"vn_m_wrench_01",
 	//38 revolver
 	"vn_p38s",
 	"vn_m10_mag",

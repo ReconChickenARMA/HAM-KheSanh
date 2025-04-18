@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1627;
+		nextID=1711;
 	};
 	class Camera
 	{
-		pos[]={10993.789,153.18172,2823.9712};
-		dir[]={-0.074813932,-0.59911716,0.79716337};
-		up[]={-0.055981543,0.80065846,0.59649861};
-		aside[]={0.99562722,-4.6395144e-08,0.093439773};
+		pos[]={10976.396,103.92794,3158.1746};
+		dir[]={0.20152183,-0.25298727,0.94625658};
+		up[]={0.052698083,0.96746516,0.24744853};
+		aside[]={0.97807121,-6.7753717e-08,-0.20829758};
 	};
 };
 binarizationWanted=0;
@@ -511,18 +511,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="ARRAY";
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -531,6 +519,18 @@ class CustomAttributes
 				{
 					singleType="SCALAR";
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
 				};
 			};
 		};
@@ -19533,8 +19533,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10981.149,102.81526,2859.2751};
-								angles[]={0,6.2768626,-0};
+								position[]={11010.062,102.81526,3177.7419};
+								angles[]={0,4.7376819,0};
 							};
 							side="Empty";
 							flags=4;
@@ -20247,7 +20247,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={11009.704,98.481445,3142.5513};
-										angles[]={0,3.6389112,-0};
+										angles[]={0,3.6389112,0};
 									};
 									side="Independent";
 									flags=7;
@@ -23902,7 +23902,7 @@ class Mission
 									};
 									id=1501;
 									type="vn_b_men_army_11";
-									atlOffset=0.072883606;
+									atlOffset=0.072875977;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -24546,7 +24546,7 @@ class Mission
 									};
 									id=1516;
 									type="vn_b_men_army_11";
-									atlOffset=0.072517395;
+									atlOffset=0.072509766;
 									class CustomAttributes
 									{
 										class Attribute0
