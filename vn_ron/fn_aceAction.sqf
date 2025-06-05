@@ -21,7 +21,15 @@ private _state = {
 
 private _cond = {
     params ["", "_player", ""];
-    leader _player isEqualTo _player && { [] call vn_ron_fnc_isNight }
+    isNil "RON_api_disable"
+    &&
+    {
+        leader _player isEqualTo _player
+        &&
+        {
+            [] call vn_ron_fnc_isNight
+        }
+    }
 };
 
 private _aceAction = [
