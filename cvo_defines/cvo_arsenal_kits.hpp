@@ -852,7 +852,7 @@ class cvo_arsenal_kits
     
     
     class Medic: Base {
-        role = 'Medic';
+        role = "Medic";
         class items {
             //medic vests 
             class vn_b_vest_usarmy_07;
@@ -865,7 +865,7 @@ class cvo_arsenal_kits
     
     
     class Engineer: Base {
-        role = 'Engineer';
+        role = "Engineer";
         class items {
             //demo vests 
             class vn_b_vest_sog_03;
@@ -912,7 +912,7 @@ class cvo_arsenal_kits
     
     
     class RTO: Base {
-        role = 'RTO';
+        role = "RTO";
         class items {
             //sog rto vest
             class vn_b_vest_sog_06;
@@ -936,7 +936,7 @@ class cvo_arsenal_kits
     
     
     class Officer: Base {
-        role = 'Officer';
+        role = "Officer";
         class items {
             //sog officer vests 
             class vn_b_vest_sog_01;
