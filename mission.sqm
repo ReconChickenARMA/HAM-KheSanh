@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1739;
+		nextID=1879;
 	};
 	class Camera
 	{
-		pos[]={10811.531,110.21623,3138.8254};
-		dir[]={-0.40709618,-0.91314328,0.022721961};
-		up[]={-0.91172659,0.40763018,0.050888158};
-		aside[]={0.055730149,-3.7143218e-07,0.99848104};
+		pos[]={10799.045,106.79744,3181.4351};
+		dir[]={-0.040496893,-0.39511406,-0.9177494};
+		up[]={-0.017418161,0.91862714,-0.39473221};
+		aside[]={-0.9990356,-2.6659109e-08,0.044082996};
 	};
 };
 binarizationWanted=0;
@@ -511,18 +511,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="ARRAY";
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -531,6 +519,18 @@ class CustomAttributes
 				{
 					singleType="SCALAR";
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
 				};
 			};
 		};
@@ -10405,7 +10405,7 @@ class Mission
 							class Attributes
 							{
 								rank="LIEUTENANT";
-								init="this setUnitTrait [""vn_artillery"",true,true];" \n "[this, ""Leadership""] call cvo_arsenal_fnc_addUnitRoles;";
+								init="this setUnitTrait [""vn_artillery"",true,true];" \n "[this, ""Officer""] call cvo_arsenal_fnc_addUnitRoles; ";
 								description="Platoon Commander@Ground Command";
 								isPlayable=1;
 								class Inventory
@@ -10629,7 +10629,7 @@ class Mission
 							{
 								skill=0.44999999;
 								rank="CORPORAL";
-								init="this setUnitTrait [""vn_artillery"",true,true];" \n "[this, ""Leadership""] call cvo_arsenal_fnc_addUnitRoles;" \n "[this, ""RTO""] call cvo_arsenal_fnc_addUnitRoles;";
+								init="this setUnitTrait [""vn_artillery"",true,true];" \n "[this, ""Officer""] call cvo_arsenal_fnc_addUnitRoles; " \n "[this, ""RTO""] call cvo_arsenal_fnc_addUnitRoles;";
 								description="RTO@Ground Command";
 								isPlayable=1;
 								class Inventory
@@ -10735,7 +10735,7 @@ class Mission
 							{
 								skill=0.44999999;
 								rank="CORPORAL";
-								init="[this, ""Leadership""] call cvo_arsenal_fnc_addUnitRoles;" \n "this setVariable [""interpreter"", true];";
+								init="[this, ""Officer""] call cvo_arsenal_fnc_addUnitRoles; " \n "this setVariable [""interpreter"", true];";
 								description="Company Doctor@Ground Command";
 								isPlayable=1;
 								class Inventory
@@ -10883,7 +10883,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="[this, ""Leadership""] call cvo_arsenal_fnc_addUnitRoles;" \n "this setUnitTrait [""vn_artillery"",true,true];" \n "";
+								init="[this, ""Officer""] call cvo_arsenal_fnc_addUnitRoles; " \n "this setUnitTrait [""vn_artillery"",true,true];" \n "";
 								description="Squad Leader@RT Habu";
 								isPlayable=1;
 								class Inventory
@@ -11000,7 +11000,7 @@ class Mission
 							{
 								skill=0.44999999;
 								rank="CORPORAL";
-								init="[this, ""Leadership""] call cvo_arsenal_fnc_addUnitRoles;";
+								init="[this, ""Officer""] call cvo_arsenal_fnc_addUnitRoles; ";
 								description="Team Leader@RT Habu";
 								isPlayable=1;
 								class Inventory
@@ -11135,7 +11135,7 @@ class Mission
 							{
 								skill=0.44999999;
 								rank="CORPORAL";
-								init="[this, ""Leadership""] call cvo_arsenal_fnc_addUnitRoles;" \n "this setVariable [""interpreter"", true];" \n "";
+								init="[this, ""Officer""] call cvo_arsenal_fnc_addUnitRoles; " \n "this setVariable [""interpreter"", true];" \n "";
 								description="Team Leader (Translator)@RT Habu";
 								isPlayable=1;
 								class Inventory
@@ -12243,7 +12243,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="[this, ""Leadership""] call cvo_arsenal_fnc_addUnitRoles;" \n "this setUnitTrait [""vn_artillery"",true,true];" \n "";
+								init="[this, ""Officer""] call cvo_arsenal_fnc_addUnitRoles; " \n "this setUnitTrait [""vn_artillery"",true,true];" \n "";
 								description="Squad Leader@RT Sidewinder";
 								isPlayable=1;
 								class Inventory
@@ -12367,7 +12367,7 @@ class Mission
 							{
 								skill=0.44999999;
 								rank="CORPORAL";
-								init="[this, ""Leadership""] call cvo_arsenal_fnc_addUnitRoles;";
+								init="[this, ""Officer""] call cvo_arsenal_fnc_addUnitRoles; ";
 								description="Team Leader@RT Sidewinder";
 								isPlayable=1;
 								class Inventory
@@ -12502,7 +12502,7 @@ class Mission
 							{
 								skill=0.44999999;
 								rank="CORPORAL";
-								init="[this, ""Leadership""] call cvo_arsenal_fnc_addUnitRoles;" \n "this setVariable [""interpreter"", true];" \n "";
+								init="[this, ""Officer""] call cvo_arsenal_fnc_addUnitRoles; " \n "this setVariable [""interpreter"", true];" \n "";
 								description="Team Leader (Translator)@RT Sidewinder";
 								isPlayable=1;
 								class Inventory
@@ -13622,7 +13622,7 @@ class Mission
 							{
 								skill=0.55000001;
 								rank="CAPTAIN";
-								init="[this, ""Leadership""] call cvo_arsenal_fnc_addUnitRoles; " \n "this setUnitTrait [""vn_artillery"",true,true];" \n "this setVariable [""interpreter"", true];" \n "[this, ""RTO""] call cvo_arsenal_fnc_addUnitRoles; " \n "";
+								init="[this,""Officer""] call cvo_arsenal_fnc_addUnitRoles;  " \n "this setUnitTrait [""vn_artillery"",true,true];" \n "this setVariable [""interpreter"", true];" \n "[this,""RTO""] call cvo_arsenal_fnc_addUnitRoles; " \n "";
 								name="coy_co";
 								description="Company Command@Head Shed";
 								isPlayer=1;
@@ -13736,7 +13736,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="[this, ""Leadership""] call cvo_arsenal_fnc_addUnitRoles; " \n "this setUnitTrait [""vn_artillery"",true,true];" \n "this setVariable [""interpreter"", true];" \n "[this, ""RTO""] call cvo_arsenal_fnc_addUnitRoles; " \n "";
+								init="[this,""Officer""] call cvo_arsenal_fnc_addUnitRoles; " \n "this setUnitTrait [""vn_artillery"",true,true];" \n "this setVariable [""interpreter"", true];" \n "[this,""RTO""] call cvo_arsenal_fnc_addUnitRoles; " \n "";
 								name="coy_qm";
 								description="Quartermaster@Head Shed";
 								isPlayable=1;
@@ -15797,7 +15797,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={10788.546,100.09979,3162.4329};
+								position[]={10788.558,100.09979,3162.4104};
 								angles[]={0,4.6886735,0};
 							};
 							side="Empty";
@@ -15807,7 +15807,7 @@ class Mission
 							};
 							id=1113;
 							type="Land_vn_hootch_01_03";
-							atlOffset=-0.0078277588;
+							atlOffset=-0.0079193115;
 						};
 						class Item16
 						{

@@ -544,13 +544,11 @@ class cvo_arsenal_kits
             class vn_o_anpvs2_m14;
             class vn_b_m14;
             class vn_s_m14;
-            class vn_b_camo_m14;
             class vn_m14_10_mag;
             class vn_m14_10_t_mag;
             class vn_m14_mag;
             class vn_m14_t_mag;
             class vn_o_m14_front;
-            class vn_m14_camo;
             //m1 garand
             //class vn_m1_garand;
             //class vn_m1_garand_gl;
@@ -632,21 +630,6 @@ class cvo_arsenal_kits
             //dp-27
             class vn_dp28;
             class vn_dp28_mag;
-            //ubgl mags
-            class vn_40mm_m381_he_mag;
-            class vn_40mm_m397_ab_mag;
-            class vn_40mm_m406_he_mag;
-            class vn_40mm_m433_hedp_mag;
-            class vn_40mm_m583_flare_w_mag;
-            class vn_40mm_m651_cs_mag;
-            class vn_40mm_m661_flare_g_mag;
-            class vn_40mm_m662_flare_r_mag;
-            class vn_40mm_m680_smoke_w_mag;
-            class vn_40mm_m682_smoke_r_mag;
-            class vn_40mm_m695_flare_y_mag;
-            class vn_40mm_m715_smoke_g_mag;
-            class vn_40mm_m716_smoke_y_mag;
-            class vn_40mm_m717_smoke_p_mag;
             //type 56/AK
             class vn_ak_01;
             class vnx_type56_xm148;
@@ -726,7 +709,6 @@ class cvo_arsenal_kits
             class vn_mk22_mag;
             class vn_s_mk22;
             class vn_m10;
-            class vn_m10_mag;
             //browning hi-power 
             class vn_hp;
             class vn_hp_mag;
