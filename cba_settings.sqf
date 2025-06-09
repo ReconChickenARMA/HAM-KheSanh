@@ -19,10 +19,10 @@ force cvo_arsenal_BaseRoleKit_Engineer = true;
 force cvo_arsenal_BaseRoleKit_AdvEngineer = true;
 
 force cvo_arsenal_BaseRoleKit_ExplosiveSpecialist = true;
-force cvo_arsenal_BaseRoleKit_ExplosiveSpecialist_IEDD = true;
+force cvo_arsenal_BaseRoleKit_ExplosiveSpecialist_IEDD = false;
 
-force cvo_arsenal_BaseRoleKit_UAV = true;
-force cvo_arsenal_BaseRoleKit_EWSpecialist = true;
+force cvo_arsenal_BaseRoleKit_UAV = false;
+force cvo_arsenal_BaseRoleKit_EWSpecialist = false;
 
 force cvo_arsenal_BaseRoleKit_Medic = true;
 force cvo_arsenal_BaseRoleKit_Doctor = true;
