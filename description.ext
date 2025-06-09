@@ -61,4 +61,8 @@ wreckManagerMode = 0;
 corpseManagerMode = 0;
 
 #include "VNSupport.hpp"
-#include "CfgPlaylists.hpp"
+
+// ###### CVO Defines
+#include "cvo_defines\CfgPlaylists.hpp"
+#include "cvo_defines\cvo_arsenal_kits.hpp"
+#include "cvo_defines\cvo_csc_presets.hpp"
