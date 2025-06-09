@@ -237,19 +237,19 @@ class cvo_arsenal_kits
     class Headgear: Base {
         class items {
             //berets 
-            class vn_i_beret_03_03;
-            class vn_i_beret_03_02;
-            class vn_i_beret_03_04;
-            class vn_i_beret_03_01;
-            class vn_b_beret_01_02;
             class vn_b_beret_01_01;
-            class vn_b_beret_01_05;
-            class vn_b_beret_01_08;
-            class vn_b_beret_01_04;
+            class vn_b_beret_01_02;
             class vn_b_beret_01_03;
-            class vn_b_beret_04_01;
-            class vn_b_beret_01_07;
+            class vn_b_beret_01_04;
+            class vn_b_beret_01_05;
             class vn_b_beret_01_06;
+            class vn_b_beret_01_07;
+            class vn_b_beret_01_08;
+            class vn_i_beret_03_01;
+            class vn_i_beret_03_02;
+            class vn_i_beret_03_03;
+            class vn_i_beret_03_04;
+            class vn_b_beret_04_01;
             //m1 helmets 
             class vn_i_helmet_m1_02_01;
             class vn_i_helmet_m1_03_01;
@@ -268,7 +268,6 @@ class cvo_arsenal_kits
             class vn_b_helmet_m1_07_01;
             class vn_b_helmet_m1_09_01;
             class vn_b_helmet_m1_04_01;
-            class vn_b_helmet_m1_17_01;
             class vn_b_helmet_m1_08_01;
             class vn_b_helmet_m1_10_01;
             class vn_b_helmet_m1_11_01;
