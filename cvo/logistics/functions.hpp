@@ -4,7 +4,7 @@ class CVO_Logistics {
 	class Logistics {
 		file = "cvo\logistics";
 
-		class initCreatedObject;
-		class loadInCargo;
+		class initCreatedObject {};
+		class loadInCargo {};
 	};
 };
